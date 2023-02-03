@@ -1,0 +1,206 @@
+body, html{
+    background: radial-gradient(black, darkorchid, #9999ff);
+    background: -webkit-radial-gradient(black, darkorchid, #9999ff);
+    background: -moz-radial-gradient(black, darkorchid, #9999ff);
+  }
+  
+  #header{
+    position: absolute;
+    width: 800px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    top: 50px;
+    left: 28%;
+  }
+  
+  #header p{
+    /*text*/
+    color: purple;
+    font-family: verdana, arial;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px black;
+    font-variant: small-caps;
+  }
+  
+  #container{
+    position: absolute;
+    width: 1050px;
+    height: 600px;
+    top: 200px;
+    left: 150px;
+  }
+  
+  
+  .img{
+    position: absolute;
+    width: 130px;
+    height: 160px;
+    background-color: black;
+    top: 10px;
+    left: 10px;
+    border: 1px solid black;
+  }
+  
+  .desc{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    top: 150px;
+    left: 10px;
+    color: black;
+    text-align: center;
+  }
+  
+  #img1{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    top: 150px;
+    left: 50px;
+    background-color: white;
+    
+    box-shadow: 1px 1px 5px black inset;
+    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    z-index: 1;
+  }
+  
+  #img2{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    top: 150px;
+    left: 200px;
+    background-color: white;
+   
+    box-shadow: 1px 1px 5px black inset;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    z-index: 2;
+  }
+  
+  #img3{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    top: 125px;  
+    left: 325px;
+    background-color: white;
+    opacity: 1;
+    z-index: 10;
+    box-shadow: 1px 1px 5px black inset;
+    transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+  }
+  
+  #img3 .img{
+    position: absolute;
+    width: 230px;
+    height: 250px;
+  }
+  
+  #img3 .desc{
+    position: absolute;
+    width: 230px;
+    top: 230px;
+  }
+  
+  #img4{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    top: 150px;
+    left: 570px;
+    background-color: white;
+  
+    box-shadow: 1px 1px 5px black inset;
+    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    z-index: 4;
+  }
+  
+  #img5{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    top: 150px;
+    left: 730px;
+    background-color: white;
+ 
+    box-shadow: 1px 1px 5px black inset;
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    transform: rotate(3deg);
+    z-index: 5;
+  }
+  #img6{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    top: 350px;
+    left: 1020px;
+    background-color: white;
+ 
+    box-shadow: 1px 1px 5px black inset;
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    transform: rotate(-6deg);
+    z-index: 5;
+  }
+  #img7{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    top: 320px;  
+    left: 1160px;
+    background-color: white;
+    opacity: 1;
+    z-index: 10;
+    box-shadow: 1px 1px 5px black inset;
+    transform: rotate(8deg);
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(8deg);
+  }
+  
+  #img7 .img{
+    position: absolute;
+    width: 230px;
+    height: 250px;
+  }
+  
+  #img7 .desc{
+    position: absolute;
+    width: 230px;
+    top: 230px;
+  }
+
+  #img8{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    top: 350px;
+    left: 1400px;
+    background-color: white;
+ 
+    box-shadow: 1px 1px 5px black inset;
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    transform: rotate(-1deg);
+    z-index: 5;
+  }
+  
