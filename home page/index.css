@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'futura';
+    src: url('Futura.ttc');
+}
+
+h1{
+    font-family:'futura'
+  }
+  h3{
+    font-family:'futura'
+  }
+
+
+a{
+  text-decoration-line: none;
+}
