@@ -1,0 +1,75 @@
+.center {
+    position: absolute;
+    top: -10vw;
+    width: 100%;
+    text-align: center;
+    font-size: 25vw;
+    font-weight: 100;
+    font-stretch:200%;
+    color:rgb(1, 1, 1)
+  }
+svg {
+    width:320px;
+  position: absolute;
+  right:1415px;
+  bottom: 320px;
+
+}
+
+circle.cls-1 {
+    fill: rgb(0, 0, 0);
+}
+
+circle.cls-1:hover {
+    fill: red;
+}
+
+.b svg{
+    width:315px;
+    position: absolute;
+    right:1080px;
+    bottom: 317px;
+}
+.c svg{
+    width:315px;
+    position: absolute;
+    right:1420px;
+    bottom: -14px;
+}
+
+.a svg{
+    position:absolute;
+    width:300px;
+    right:4vw;
+}
+
+rect.cls-1 {
+    fill: rgb(0, 0, 0);
+}
+rect.cls-1:hover{
+    fill:rgb(34, 0, 255)
+}
+
+.g svg{
+    position:absolute;
+    width:1400px;
+    right:200px; 
+    top:550px; 
+}
+path {
+    fill: rgb(0, 0, 0);
+}
+path:hover{
+    fill:rgb(59, 136, 57)
+}
+
+.word {
+    position: absolute;
+    top: 102vw;
+    width: 100%;
+    text-align: center;
+    font-size: 25vw;
+    font-weight: 100;
+    font-stretch:200%;
+    color:rgb(1, 1, 1)
+  }
