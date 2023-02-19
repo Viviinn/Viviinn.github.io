@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Helvetica-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/HelveticaBd___-.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetica-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Helvetica Light.ttf") format("truetype");
+}
+
+
+.frame5 {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  gap: 32px;
+  height: 1040px;
+  min-width: 1728px;
+  overflow-x: hidden;
+  
+}
+
+.frame5 .overlap-group {
+  height: 1056px;
+  margin-left: 103px;
+  position: relative;
+  width: 767px;
+}
+
+.frame5 .rectangle-55 {
+  background-color: var(--black);
+  height: 72px;
+  left: 30px;
+  position: absolute;
+  top: 90px;
+  width: 242px;
+}
+
+.frame5 .title {
+  color: #ffffff;
+  font-family: var(--font-family-helvetica-bold);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  left: 50px;
+  letter-spacing: 2.48px;
+  line-height: 60px;
+  position: absolute;
+  top: 68px;
+  width: 482px;
+}
+
+.frame5 .frame-30::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.frame5 .frame-30 {
+  display: flex;
+  height: 1056px;
+  left: 25px;
+  overflow-y: scroll;
+  position: absolute;
+  top: 0;
+  width: 767px;
+}
+
+.frame5 .barbara-henstein-smi {
+  color: var(--black);
+  font-family: var(--font-family-helvetica-light);
+  font-size: var(--font-size-m);
+  font-weight: 300;
+  height: 1872px;
+  letter-spacing: 1.16px;
+  line-height: 35px;
+  width: 767px;
+}
+
+.frame5 .group-47 {
+  display: flex;
+  height: 752px;
+  margin-top: 304.0px;
+  width: 923px;
+}
+
+.frame5 .folder4-02-12 {
+  height: 832px;
+  margin-left: 60px;
+  margin-top: -100px;
+  object-fit: cover;
+  width: 1003px;
+}
+
+
+
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+
+:root { 
+  --black: #000000;
+ 
+  --font-size-l: 45px;
+  --font-size-m: 21px;
+ 
+  --font-family-helvetica-bold: "Helvetica-Bold", Helvetica;
+  --font-family-helvetica-light: "Helvetica-Light", Helvetica;
+}
+
+
+
+
+

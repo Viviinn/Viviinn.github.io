@@ -1,0 +1,92 @@
+.center {
+    position: absolute;
+    top: -5vw;
+    width: 100%;
+    text-align: center;
+    font-size: 19vw;
+    font-weight: 100;
+    font-stretch:200%;
+    color:rgb(1, 1, 1)
+  }
+svg {
+    width:320px;
+  position: absolute;
+  right:100px;
+  bottom: -400px;
+
+}
+
+path.cls-1 {
+    fill: rgb(0, 0, 0);
+}
+path.cls-2 {
+    fill: rgb(0, 0, 0);
+}
+
+path.cls-1:hover {
+    fill: rgba(255, 255, 255, 0);
+}
+
+.folder1 svg{
+    width:315px;
+    position: absolute;
+    left:60px;
+    bottom: 290px;
+}
+.folder2 svg{
+    width:315px;
+    position: absolute;
+    right:1405px;
+    bottom: -52px;
+}
+
+.folder4 svg{
+    position:absolute;
+    width:315px;
+    bottom: -750px;
+    right:100px;
+}
+
+
+.word {
+    position: absolute;
+    top: 97vw;
+    width: 100%;
+    text-align: center;
+    font-size: 16.5vw;
+    font-weight: 100;
+    font-stretch:200%;
+    color:rgb(1, 1, 1)
+  }
+
+  a:hover{
+  
+    font-style: italic;
+  }
+  
+  a{
+    text-decoration-line: none;
+    color:rgb(0, 0, 0)
+    
+  }
+
+  #cursor .cursor--inner {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 1px #1d213f;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    #cursor {
+      z-index: 99;
+      position: fixed;
+      left: 0;
+      top: 0;
+      pointer-events: none;
+      will-change: transform;
+    }}
+  
+    html {
+      cursor: none;
+    }
