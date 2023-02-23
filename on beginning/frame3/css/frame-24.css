@@ -11,11 +11,15 @@
   font-weight: 400;
   src: url("../fonts/Helvetica.ttf") ;
 }
+
+
 @font-face {
-  font-family: "Helvetica-Light";
+  font-family: 'Typold ExtraThin';
+  src: url('Typold-ExtraThin.woff2') format('woff2'),
+      url('Typold-ExtraThin.woff') format('woff');
+  font-weight: 100;
   font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/Helvetica Light.ttf") format("truetype");
+  font-display: swap;
 }
 
 
@@ -91,8 +95,8 @@ a:active{color:black;}
 }
 
 .frame-24 .an-act-of-the-mind {
-  font-family: var(--font-family-helvetica-light);
-  font-size: var(--font-size-xs);
+  font-family: 'Typold ExtraThin';
+  font-size: 1vw;
   left: 729px;
   letter-spacing: 2.37px;
   line-height: 30px;
@@ -102,8 +106,8 @@ a:active{color:black;}
 }
 
 .frame-24 .i-believe-the-poem-i {
-  font-family: var(--font-family-helvetica-light);
-  font-size: var(--font-size-xs);
+  font-family: 'Typold ExtraThin';
+  font-size: 1vw;
   left: 70px;
   letter-spacing: 2.37px;
   line-height: 30px;
@@ -187,8 +191,8 @@ path.cls-1:hover{
 }
 
 .frame-24 .now-here-is-somethin {
-  font-family: var(--font-family-helvetica-light);
-  font-size: var(--font-size-xs);
+  font-family: 'Typold ExtraThin';
+  font-size: 1vw;
   left: 58px;
   letter-spacing: 2.37px;
   line-height: 30px;
