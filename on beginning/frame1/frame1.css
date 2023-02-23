@@ -70,23 +70,4 @@ path.cls-1:hover {
     
   }
 
-  #cursor .cursor--inner {
-    width: 5vw;
-    height: 5vw;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    border: solid 1px #1d213f;
-  }
-  @media (hover: hover) and (pointer: fine) {
-    #cursor {
-      z-index: 99;
-      position: fixed;
-      left: 0;
-      top: 0;
-      pointer-events: none;
-      will-change: transform;
-    }}
-  
-    html {
-      cursor: none;
-    }
+ 
