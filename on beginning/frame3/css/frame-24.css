@@ -1,0 +1,223 @@
+
+@font-face {
+  font-family: "Helvetica-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/HelveticaBd___-.ttf") ;
+}
+@font-face {
+  font-family: "Helvetica-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Helvetica.ttf") ;
+}
+
+
+@font-face {
+  font-family: 'Typold ExtraThin';
+  src: url('Typold-ExtraThin.woff2') format('woff2'),
+      url('Typold-ExtraThin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+a:hover {
+  background-color: rgba(255, 255, 0, 0.791);
+}
+a{
+  text-decoration-line: none;
+}
+a:link{color:black;}
+a:hover{color:black;}
+a:visited{color:black;}
+a:active{color:black;}
+
+
+.frame-24 .overlap-group1 {
+  height: -1048px;
+  margin-top: -6px;
+  position: relative;
+  width: 1728px;
+}
+
+
+.frame-24 .on-beginnings {
+  color: var(--black);
+  font-family: var(--font-family-helvetica-bold);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  left: 1240px;
+  letter-spacing: 1.93px;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 2000px;
+  width: 418px;
+}
+
+.frame-24 .from-madness-rack-a {
+  color: var(--black);
+  font-family: var(--font-family-helvetica-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  left: 1310px;
+  letter-spacing: 0.88px;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 2040px;
+  width: 393px;
+}
+
+.frame-24 .arrow-4 {
+  height: 17px;
+  left: 1596px;
+  position: absolute;
+  top: 2025px;
+  width: 34px;
+}
+
+.frame-24 .poem-is-an {
+  color: #fffa99;
+  filter: blur(15px);;
+  font-family: var(--font-family-helvetica-bold);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  left: 386px;
+  letter-spacing: 0;
+  line-height: 280px;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  width: 1267px;
+}
+
+.frame-24 .an-act-of-the-mind {
+  font-family: 'Typold ExtraThin';
+  font-size: 1vw;
+  left: 729px;
+  letter-spacing: 2.37px;
+  line-height: 30px;
+  position: absolute;
+  top: 300px;
+  width: 927px;
+}
+
+.frame-24 .i-believe-the-poem-i {
+  font-family: 'Typold ExtraThin';
+  font-size: 1vw;
+  left: 70px;
+  letter-spacing: 2.37px;
+  line-height: 30px;
+  position: absolute;
+  top: 40px;
+  width: 1151px;
+}
+
+
+
+
+ .rectangle-48 {
+  position:absolute;
+  top:750px;
+ 
+  animation: mymove 4s infinite;
+}
+.move {
+  position:absolute;
+  top:1280px;
+ 
+  animation: mymove 4s infinite;
+}
+
+.frame-24 .overlap-group {
+  height: 279px;
+  position: relative;
+  width: 143px;
+  top: -2000px;
+  position: relative;
+  animation: mymove 4s infinite;
+}
+
+
+
+svg{
+  position: absolute;
+  width:200px;
+  top:300px;
+  left:140px;
+}
+
+rect.cls-1 {
+  fill: rgba(255, 255, 255, 0);
+}
+rect.cls-1:hover {
+  fill: rgb(0, 0, 0);
+}
+
+.rect{
+  position: absolute;
+  width:300px;
+  top:300px;
+  left:1px;
+
+}
+path.cls-1 {
+  fill: rgba(255, 255, 255, 0);
+}
+path.cls-1:hover{
+  fill: rgb(0, 0, 0);
+}
+
+
+  #rectangle-48 {animation-timing-function: ease;}
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 1400px;}}
+    #frame-24overlap-group {animation-timing-function: ease;}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1400px;}}
+
+  .frame-24 .rectangle-49 {
+  background-color: var(--black);
+  height: 143px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 143px;
+}
+
+.frame-24 .now-here-is-somethin {
+  font-family: 'Typold ExtraThin';
+  font-size: 1vw;
+  left: 58px;
+  letter-spacing: 2.37px;
+  line-height: 30px;
+  position: absolute;
+  top: 1230px;
+  width: 1200px;
+}
+
+
+:root { 
+  --black: #000000;
+ 
+  --font-size-l: 411px;
+  --font-size-m: 16px;
+  --font-size-s: 35px;
+  --font-size-xl: 441px;
+  --font-size-xs: 20px;
+ 
+  --font-family-helvetica-bold: "Helvetica-Bold", Helvetica;
+  --font-family-helvetica-regular: "Helvetica-Regular", Helvetica;
+}
+.helvetica-bold-black-43px {
+  color: var(--black);
+  font-family: var(--font-family-helvetica-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 300;
+}

@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Typold ExtraThin';
+  src: url('Typold-ExtraThin.woff2') format('woff2'),
+      url('Typold-ExtraThin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+.center {
+    position: absolute;
+    top: -5vw;
+    width: 100%;
+    text-align: center;
+    font-size: 18vw;
+    
+    font-family: 'Typold ExtraThin';
+  }
+
+svg {
+    width:320px;
+  position: absolute;
+  right:100px;
+  bottom: -400px;
+
+}
+
+path.cls-1 {
+    fill: rgb(0, 0, 0);
+}
+path.cls-2 {
+    fill: rgb(0, 0, 0);
+}
+
+path.cls-1:hover {
+    fill: rgba(255, 255, 255, 0);
+}
+
+.folder1 svg{
+    width:315px;
+    position: absolute;
+    left:90px;
+    bottom: 290px;
+}
+.folder2 svg{
+    width:315px;
+    position: absolute;
+    left:90px;
+    bottom: -52px;
+}
+
+.folder4 svg{
+    position:absolute;
+    width:315px;
+    bottom: -750px;
+    right:100px;
+}
+
+
+.word {
+    position: absolute;
+    top: 1800px;
+    width: 100%;
+    text-align: center;
+    font-size: 15vw;
+    
+    font-family: 'Typold ExtraThin'
+  }
+
+  a:hover{
+  
+    font-style: italic;
+  }
+  
+  a{
+    text-decoration-line: none;
+    color:rgb(0, 0, 0)
+    
+  }
+
+ 
