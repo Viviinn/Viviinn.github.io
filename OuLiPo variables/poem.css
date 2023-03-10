@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Monospace';
+    src: url('Monospace.woff2') format('woff2'),
+        url('Monospace.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:10vw;
+}
+button{
+    border: solid 2px;
+    font-family: 'Monospace';
+    font-size:medium;
+    background-color: greenyellow;
+    cursor: pointer;
+    padding: 1vw;
+
+}
+body{
+    font-family: 'Monospace';
+    text-align: center;
+    font-size:x-large;
+    position: relative;
+    top:10vw
+}

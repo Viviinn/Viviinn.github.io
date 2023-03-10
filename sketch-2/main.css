@@ -1,0 +1,192 @@
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+
+.rectangle {
+  width: 95vw;
+  height: 50vw;
+  background: hsl(25, 32%, 75%);
+  position: relative;
+  top: 30vw;
+  z-index: -4;
+}
+
+.candle{
+  width:7vw;
+  height: 3vw;
+  background: rgb(121, 121, 121);
+  border-radius: 90px / 30px;
+  position: relative;
+  top: 14vw;
+  left:71.4vw;
+  z-index: -4;
+}
+.candle2{
+  width: 1vw;
+  height: 16vw;
+  background: hsl(0, 0%, 61%);
+  position: relative;
+  bottom: 4vw;
+  left:74.4vw;
+  
+}
+.candle3{
+  width: 2.5vw;
+  height: 5vw;
+  background: hsl(0, 0%, 51%);
+  position: relative;
+  bottom: 25vw;
+  left:73.7vw;
+}
+.candle4{
+  width: 2vw;
+  height: 7vw;
+  background: hsl(54, 28%, 85%);
+  position: relative;
+  bottom: 37vw;
+  left:73.9vw;
+}
+.fire{
+  display: block;
+  width: 1vw;
+  height: 3vw;
+  background-color: rgb(255, 94, 0);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position: relative;
+  bottom: 46.9vw;
+  left:74.4vw;
+  filter: blur(1px);
+}
+
+.vase{
+  z-index:1;
+  width: 6vw;
+  height: 13vw;
+  position: relative;
+  bottom:29vw;
+  left:50.3vw;
+  border-radius: 1vw;
+    background: rgb(133,133,133);
+    background: linear-gradient(90deg, rgba(133,133,133,0.5048543689320388) 16%, rgba(218,218,218,0.6553398058252426) 50%, rgba(142,142,142,0.4854368932038835) 89%);
+}
+.vase2{
+  width: 2.5vw;
+  height: 5vw;
+  position: relative;
+  bottom: 23vw;
+  left:52vw;
+    
+  border-bottom: 3vw solid rgb(145, 145, 145);
+      border-left: 2vw solid transparent;
+      border-right: 2vw solid transparent;
+      bottom:34vw;
+      left: 50.1vw;
+}
+.stem1{
+  width: 0.5vw;
+    height: 20vw;
+    border-radius: 20vw 20vw;
+    border-bottom: 0vw;
+    background: green;
+    position: relative;
+    bottom: 57vw;
+    left: 54vw;
+    transform: rotate(5deg);
+}
+.flower{
+  width: 3.1vw;
+  height: 3.1vw;
+  background: rgb(255, 188, 211);
+  border-radius: 50%;
+  position: relative;
+  bottom: 79vw;
+  left: 54vw;
+}
+.stem2{
+  width: 0.5vw;
+    height: 20vw;
+    border-radius: 20% 20%;
+    border-bottom: 0%;
+    background: green;
+    position: relative;
+    bottom: 80.2vw;
+    left: 54vw;
+    transform: rotate(-3deg);
+}
+.flower2{
+  width: 3vw;
+  height: 3vw;
+  background: rgb(222, 80, 115);
+  border-radius: 50%;
+  position: relative;
+  bottom: 102.9vw;
+  left: 52vw;
+}
+.stem3{
+  width: 0.5vw;
+    height: 18vw;
+    border-radius: 20% 20%;
+    border-bottom: 0%;
+    background: green;
+    position: relative;
+    bottom: 101vw;
+    left: 52vw;
+    transform: rotate(-10deg);
+}
+.flower3{
+  width: 2.5vw;
+  height: 2.5vw;
+  background: rgb(193, 132, 154);
+  border-radius: 50%;
+  position: relative;
+  bottom: 121.2vw;
+  left: 49.2vw;
+}
+.fruit{
+  width: 7.1vw;
+  height: 7.1vw;
+  margin: 1vw;
+  background-color: #f7df5b;
+  border-radius: 50% 15%;
+  box-shadow: inset 0.4vw 0.2vw  #ccb42a;
+  transform: rotate(215deg);
+  position: absolute;
+  bottom: -15vw;
+  left: 40vw;
+  
+}
+.pear {
+  width:9.4vw;
+  height: 9.4vw;
+  margin-top: 1.2vw;
+  background-color: #d78922;
+  border-radius: 50% 13% 50% 50%;
+  transform: rotate(-70deg);
+  box-shadow: inset .70vw .20vw #b97c43;
+  position: absolute;
+  left:60vw;
+  bottom: -19vw;
+}
+.pear:after{
+  content:"";
+  width: 1vw;
+  height: 1.1vw;
+  background-color:rgb(255, 239, 212);
+  border-radius: 13% 50% 50% 13% ;
+  position:absolute;
+  
+  top: 0vw;
+  left:8.6vw;
+  transform: rotate(-39deg);
+}
