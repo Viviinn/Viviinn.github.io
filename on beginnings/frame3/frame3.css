@@ -1,0 +1,66 @@
+.folder {
+
+    position: absolute;
+    top:840px;
+    left:40vw;
+    
+  }
+  @font-face {
+    font-family: 'Typold ExtraThin';
+    src: url('Typold-ExtraThin.woff2') format('woff2'),
+        url('Typold-ExtraThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  .text{
+    font-family: 'Typold ExtraThin';
+    font-size: large;
+    padding: 8vw;
+    position: relative;
+    top:4vw
+    
+  }
+  
+  .circle img {
+    width:13vw;
+    height: 5.8vw;
+    position:absolute;
+    bottom:89vh;
+    left:-1vw;
+   
+  }
+              
+  .arrow1 {
+    border: solid black;
+    position: absolute;
+    bottom:91.3vh;
+    left:89vw;
+   
+    border-width: 0 9px 9px 0;
+    display: inline-block;
+    padding: 9px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    
+  }
+  .arrow1:hover {
+    border-color: red;
+  }
+  .arrow2 {
+    border: solid black;
+    position: absolute;
+    bottom:91.3vh;
+    left:94vw;
+   
+    border-width: 0 9px 9px 0;
+    display: inline-block;
+    padding: 9px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+   
+  }
+  .arrow2:hover {
+    border-color: red;
+  }
