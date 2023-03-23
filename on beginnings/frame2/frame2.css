@@ -1,8 +1,9 @@
 .folder {
 
-  position: absolute;
-  top:840px;
-  left:40vw;
+  top:400px;
+  display: flex;
+justify-content: center;
+align-items: center;
   
 }
 @font-face {
@@ -24,11 +25,11 @@
 }
 
 .circle img {
-  width:13vw;
-  height: 5.8vw;
+  width:18vw;
+  height: 8vw;
   position:absolute;
-  bottom:89vh;
-  left:-1vw;
+  bottom:86.5vh;
+  left:0vw;
  
 }
             
