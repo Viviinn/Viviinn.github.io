@@ -1,0 +1,60 @@
+
+body {
+  background-color: rgba(44, 82, 71, 0.417);
+  font-family: arial;
+  color: red;
+  font-size: 100px;
+}
+
+
+svg{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  bottom:-15vw;
+  height:30vw;
+  animation:rotate 6s linear infinite ;
+  
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0.5turn);
+  }
+  60% {
+    transform: rotate(0.7turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.circle{
+  width: 2vw;
+  height: 2vw;
+  background: rgb(0, 0, 0);
+  border-radius: 50%;
+  position:relative;
+  left:42vw;
+  bottom:3vw
+}
+.circle2{
+  width: 2vw;
+  height: 2vw;
+  background: rgb(0, 0, 0);
+  border-radius: 50%;
+  position:relative;
+  left:50vw;
+  bottom:5.2vw
+}
+.line{
+  height: 2.8vw;
+  width: 0.4vw;
+  border-radius: 20vw 20  20vw;
+  border-left: 0.6vw solid black;
+  transform: rotate(-90deg);
+  position: relative;
+  left:46.3vw;
+  bottom:6vw;
+}
