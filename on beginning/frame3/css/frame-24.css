@@ -119,17 +119,17 @@ a:active{color:black;}
 
 
 
- .rectangle-48 {
+ .rectangle-48 svg {
   position:absolute;
-  top:750px;
+  top:1200px;
+  left:1400px;
  
-  animation: mymove 4s infinite;
 }
-.move {
+.move svg{
   position:absolute;
-  top:1280px;
+  top:1500px;
+  left:1400px;
  
-  animation: mymove 4s infinite;
 }
 
 .frame-24 .overlap-group {
@@ -146,7 +146,7 @@ a:active{color:black;}
 svg{
   position: absolute;
   width:200px;
-  top:300px;
+  top:400px;
   left:140px;
 }
 
@@ -160,7 +160,7 @@ rect.cls-1:hover {
 .rect{
   position: absolute;
   width:300px;
-  top:300px;
+  top:350px;
   left:1px;
 
 }
@@ -172,19 +172,12 @@ path.cls-1:hover{
 }
 
 
-  #rectangle-48 {animation-timing-function: ease;}
-  @keyframes mymove {
-    from {left: 0px;}
-    to {left: 1400px;}}
-    #frame-24overlap-group {animation-timing-function: ease;}
-@keyframes mymove {
-  from {left: 0px;}
-  to {left: 1400px;}}
+
 
   .frame-24 .rectangle-49 {
   background-color: var(--black);
   height: 143px;
-  left: 0;
+  left: 50px;
   position: absolute;
   top: 0;
   width: 143px;
