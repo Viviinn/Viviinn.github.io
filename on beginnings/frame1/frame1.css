@@ -23,7 +23,7 @@ svg {
     width:320px;
   position: absolute;
   right:100px;
-  bottom: -400px;
+  bottom: -500px;
 
 }
 
@@ -54,7 +54,7 @@ path.cls-1:hover {
 .folder4 svg{
     position:absolute;
     width:315px;
-    bottom: -750px;
+    bottom: -900px;
     right:100px;
 }
 

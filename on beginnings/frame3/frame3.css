@@ -25,11 +25,12 @@ align-items: center;
   }
   
   .circle img {
-    width:18vw;
-    height: 8vw;
+    width: 15vw;
+    height: 6.7vw;
     position:absolute;
-    bottom:86.5vh;
+    bottom:87.6vh;
     left:0vw;
+   
    
   }
               
