@@ -149,3 +149,26 @@ button:hover{
         left:15vw;
       }
   }
+  @media (min-width: 360px){
+    .img1 img{
+        max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:70vh;
+      left:3vh;
+      }
+      .img2 img{
+        max-inline-size: 10%;
+        block-size: auto;
+        position: absolute;
+        bottom:65vh;
+        left:85vw;
+      }
+      .img3 img{
+        max-inline-size: 10%;
+        block-size: auto;
+        position: absolute;
+        bottom:53vh;
+        left:14vw;
+      }
+  }
