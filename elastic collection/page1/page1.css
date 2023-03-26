@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Monospace';
+    src: url('Monospace.woff2') format('woff2'),
+        url('Monospace.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+.responsive {
+    width: 55%;
+    height: auto;
+  }
+
+  button{
+    border: solid 1px;
+    font-family: 'Monospace';
+    font-size:0.8vw;
+    background-color:#ffff5b;
+
+    cursor: pointer;
+    padding: 0.4vw;
+
+}
+button:hover{
+    background-color: rgb(255, 249, 203);
+}
+
+  .text{
+    text-align:center;
+    font-family: 'Monospace';
+    font-size: 1.3vw;
+    position: relative;
+    top:3vw;
+    
+  }
+ 
+  .img1 img{
+    max-inline-size: 10%;
+  block-size: auto;
+  position: absolute;
+  bottom:40vh;
+  left:4vh;
+  }
+  .img2 img{
+    max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:35vh;
+    left:85vw;
+  }
+  .img3 img{
+    max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:10vh;
+    left:15vw;
+  }
+  @media (max-width: 600px){
+    .responsive{
+        position: relative;
+        top:30vw;
+    }
+    .text{
+        text-align:center;
+        font-family: 'Monospace';
+        font-size: 1.3vw;
+        position: relative;
+        top:33vw;
+        
+      }
+      button{
+        border: solid 1px;
+        font-family: 'Monospace';
+        font-size:0.8vw;
+        background-color:#ffff5b;
+        cursor: pointer;
+        padding: 0.4vw;
+        position:relative;
+        top:30vw;
+    
+    }
+    .img1 img{
+        max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:64vh;
+      left:2vh;
+      }
+      .img2 img{
+        max-inline-size: 10%;
+        block-size: auto;
+        position: absolute;
+        bottom:61vh;
+        left:85vw;
+      }
+      .img3 img{
+        max-inline-size: 10%;
+        block-size: auto;
+        position: absolute;
+        bottom:50vh;
+        left:10vw;
+      }
+
+  }
