@@ -6,6 +6,8 @@
     font-style: normal;
     font-display: swap;
 }
+
+
 .responsive {
     width: 60%;
     height: auto;
@@ -30,7 +32,7 @@ button:hover{
     font-family: 'Monospace';
     font-size: 1.3vw;
     position: relative;
-    top:3vw;
+    top:7vw;
     
   }
  
@@ -38,7 +40,7 @@ button:hover{
     max-inline-size: 10%;
   block-size: auto;
   position: absolute;
-  bottom:40vh;
+  bottom:50vh;
   left:4vh;
   }
   .img2 img{
@@ -52,13 +54,27 @@ button:hover{
     max-inline-size: 10%;
     block-size: auto;
     position: absolute;
-    bottom:10vh;
+    bottom:15vh;
     left:15vw;
   }
-  @media (max-width: 500px){
+  .title svg{
+    width:20vw;
+    position: absolute;
+    left:80vw;
+    top:44.8vw;
+}
+.back{
+    font-family: 'Monospace';
+    font-size:1.5vw;
+    position: absolute;
+    left:85.5vw;
+    top:48.9vw;
+}
+
+  @media (min-width: 360px){
     .responsive{
         position: relative;
-        top:10vw;
+        top:30vw;
     }
     .text{
         text-align:center;
@@ -83,27 +99,40 @@ button:hover{
         max-inline-size: 10%;
       block-size: auto;
       position: absolute;
-      bottom:64vh;
-      left:2vh;
+      bottom:54vh;
+      left:4vh;
       }
       .img2 img{
         max-inline-size: 10%;
         block-size: auto;
         position: absolute;
-        bottom:61vh;
+        bottom:52vh;
         left:85vw;
       }
       .img3 img{
         max-inline-size: 10%;
         block-size: auto;
         position: absolute;
-        bottom:50vh;
+        bottom:35vh;
         left:10vw;
       }
+      .title svg{
+        width:28vw;
+        position: absolute;
+        left:74vw;
+        top:86.5vw;
+    }
+    .back{
+        font-family: 'Monospace';
+        font-size:0.1vw;
+        position: absolute;
+        left:80.5vw;
+        top:92vw;
+    }
 
   }
 
-  @media (max-width: 1200px){
+  @media (min-width: 700px){
     .responsive {
         position: relative;
         top:13vw;
@@ -113,7 +142,7 @@ button:hover{
         font-family: 'Monospace';
         font-size: 1.3vw;
         position: relative;
-        top:20vw;
+        top:16vw;
         
       }
       button{
@@ -148,27 +177,77 @@ button:hover{
         bottom:40vh;
         left:15vw;
       }
+      .title svg{
+        width:20vw;
+        position: absolute;
+        left:80vw;
+        top:60.8vw;
+    }
+    .back{
+        font-family: 'Monospace';
+        font-size:1.5vw;
+        position: absolute;
+        left:85.5vw;
+        top:64.9vw;
+    }
+    
   }
-  @media (min-width: 360px){
+  @media (min-width: 968px){
+    .responsive{
+      position: relative;
+      top:1vw;
+  }
+  .text{
+      text-align:center;
+      font-family: 'Monospace';
+      font-size: 1.3vw;
+      position: relative;
+      top:3vw;
+      
+    }
+    button{
+      border: solid 1px;
+      font-family: 'Monospace';
+      font-size:0.8vw;
+      background-color:#ffff5b;
+      cursor: pointer;
+      padding: 0.4vw;
+      position:relative;
+      top:1vw;
+  
+  }
     .img1 img{
         max-inline-size: 10%;
       block-size: auto;
       position: absolute;
-      bottom:70vh;
+      bottom:47vh;
       left:3vh;
       }
       .img2 img{
         max-inline-size: 10%;
         block-size: auto;
         position: absolute;
-        bottom:65vh;
+        bottom:45vh;
         left:85vw;
       }
       .img3 img{
         max-inline-size: 10%;
         block-size: auto;
         position: absolute;
-        bottom:53vh;
+        bottom:7vh;
         left:14vw;
       }
+      .title svg{
+        width:20vw;
+        position: absolute;
+        left:80vw;
+        top:43.8vw;
+    }
+    .back{
+        font-family: 'Monospace';
+        font-size:1.5vw;
+        position: absolute;
+        left:85.5vw;
+        top:48vw;
+    }
   }
