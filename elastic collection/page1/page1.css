@@ -55,10 +55,10 @@ button:hover{
     bottom:10vh;
     left:15vw;
   }
-  @media (max-width: 600px){
+  @media (max-width: 500px){
     .responsive{
         position: relative;
-        top:30vw;
+        top:10vw;
     }
     .text{
         text-align:center;
@@ -127,4 +127,25 @@ button:hover{
         top:10vw;
     
     }
+    .img1 img{
+        max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:60vh;
+      left:4vh;
+      }
+      .img2 img{
+        max-inline-size: 10%;
+        block-size: auto;
+        position: absolute;
+        bottom:55vh;
+        left:85vw;
+      }
+      .img3 img{
+        max-inline-size: 10%;
+        block-size: auto;
+        position: absolute;
+        bottom:40vh;
+        left:15vw;
+      }
   }
