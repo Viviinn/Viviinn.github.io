@@ -19,7 +19,7 @@ button{
   border: solid 1px;
   font-family: 'Monospace';
   font-size:0.8vw;
-  background-color:#88ff84;
+  background-color:#ff8a00;
 
   cursor: pointer;
   padding: 0.4vw;
@@ -28,7 +28,7 @@ button{
 
 }
 button:hover{
-  background-color: #c2ffc0;
+  background-color: #ffc17a;
 }
 
 .text{
@@ -47,34 +47,7 @@ position: absolute;
 bottom:50vh;
 left:2vh;
 }
-.img2 img{
-  max-inline-size: 10%;
-  block-size: auto;
-  position: absolute;
-  bottom:30vh;
-  left:20vw;
-}
-.img3 img{
-  max-inline-size: 10%;
-  block-size: auto;
-  position: absolute;
-  bottom:45vh;
-  left:85vw;
-}
-.img4 img{
-  max-inline-size: 10%;
-  block-size: auto;
-  position: absolute;
-  bottom:65vh;
-  left:20vw;
-}
-.img5 img{
-  max-inline-size: 10%;
-  block-size: auto;
-  position: absolute;
-  bottom:32vh;
-  left:65vw;
-}
+
 
 .title svg{
   width:20vw;
@@ -83,7 +56,7 @@ left:2vh;
   top:110.8vw;
 }
 .back:hover{
-color: #88ff84;
+color: #ff8a00;
 }
 .back{
   font-family: 'Monospace';
@@ -97,75 +70,50 @@ color: #88ff84;
 
 @media (max-width: 600px){
 .responsive {
+  width: 90%;
+  height: auto;
     position: relative;
-    top:40vw;
+    top:8vw;
 }
 .text{
     text-align:center;
     font-family: 'Monospace';
     font-size: 1.3vw;
     position: relative;
-    top:43vw;
+    top:13vw;
     
   }
   button{
     border: solid 1px;
     font-family: 'Monospace';
-    font-size:0.8vw;
-    background-color:#88ff84;
+    font-size:25px;
+    background-color:#ff8a00;
     cursor: pointer;
-    padding: 0.4vw;
+    padding: 5px;
     position:relative;
-    top:38vw;
+    top:3vw;
 
 }
 .img1 img{
     max-inline-size: 10%;
   block-size: auto;
   position: absolute;
-  bottom:50vh;
+  bottom:10vh;
   left:4vh;
   }
-  .img2 img{
-    max-inline-size: 8%;
-    block-size: auto;
-    position: absolute;
-    bottom:30vh;
-    left:75vw;
-  }
-  .img3 img{
-    max-inline-size: 10%;
-    block-size: auto;
-    position: absolute;
-    bottom:50vh;
-    left:85vw;
-  }
-  .img4 img{
-    max-inline-size: 10%;
-    block-size: auto;
-    position: absolute;
-    bottom:30vh;
-    left:9vw;
-  }
-  .img5 img{
-    max-inline-size: 6%;
-    block-size: auto;
-    position: absolute;
-    bottom:73vh;
-    left:25vw;
-  }
+ 
   .title svg{
     width:31vw;
     position: absolute;
     left:35vw;
-    top:130vw;
+    top:150vw;
 }
 .back{
     font-family: 'Monospace';
-    font-size:1.5vw;
+    font-size:3px;
     position: absolute;
     left:40vw;
-    top:136vw;
+    top:156vw;
 }
 
 }
@@ -189,7 +137,7 @@ color: #88ff84;
     border: solid 1px;
     font-family: 'Monospace';
     font-size:0.8vw;
-    background-color:#88ff84;
+    background-color:#ff8a00;
     cursor: pointer;
     padding: 0.4vw;
     position:relative;
@@ -250,25 +198,25 @@ color: #88ff84;
 @media (min-width: 768px){
 .responsive {
     position: relative;
-    top:6vw;
+    top:2vw;
 }
 .text{
     text-align:center;
     font-family: 'Monospace';
     font-size: 1.3vw;
     position: relative;
-    top:8vw;
+    top:4vw;
     
   }
   button{
     border: solid 1px;
     font-family: 'Monospace';
     font-size:0.8vw;
-    background-color:#88ff84;
+    background-color:#ff8a00;
     cursor: pointer;
     padding: 0.4vw;
     position:relative;
-    top:5vw;
+    top:2vw;
 
 }
 .img1 img{
@@ -278,71 +226,44 @@ color: #88ff84;
   bottom:55vh;
   left:5vh;
   }
-  .img2 img{
-    max-inline-size: 8%;
-    block-size: auto;
-    position: absolute;
-    bottom:30vh;
-    left:65vw;
-  }
-  .img3 img{
-    max-inline-size: 10%;
-    block-size: auto;
-    position: absolute;
-    bottom:45vh;
-    left:85vw;
-  }
-  .img4 img{
-    max-inline-size: 10%;
-    block-size: auto;
-    position: absolute;
-    bottom:30vh;
-    left:7vw;
-  }
-  .img5 img{
-    max-inline-size: 6%;
-    block-size: auto;
-    position: absolute;
-    bottom:87vh;
-    left:20vw;
-  }
+
   .title svg{
     width:20vw;
     position: absolute;
     left:80vw;
-    top:52vw;
+    top:54vw;
 }
 .back{
     font-family: 'Monospace';
     font-size:1.5vw;
     position: absolute;
     left:85.5vw;
-    top:56vw;
+    top:58vw;
 }
 
 }
 @media (min-width: 992px){
 .responsive {
     position: relative;
-    top:3vw;
+    top:1vw;
 }
 .text{
     text-align:center;
     font-family: 'Monospace';
     font-size: 1.3vw;
     position: relative;
-    top:6vw;
+    top:3vw;
     
   }
   button{
     border: solid 1px;
     font-family: 'Monospace';
     font-size:0.8vw;
-    background-color:#88ff84;
+    background-color:#ff8a00;
     cursor: pointer;
     padding: 0.4vw;
     position:relative;
-    top:3vw;
+    top:1vw;
 
 }
 .img1 img{
@@ -352,46 +273,19 @@ color: #88ff84;
   bottom:45vh;
   left:5vh;
   }
-  .img2 img{
-    max-inline-size: 8%;
-    block-size: auto;
-    position: absolute;
-    bottom:10vh;
-    left:65vw;
-  }
-  .img3 img{
-    max-inline-size: 10%;
-    block-size: auto;
-    position: absolute;
-    bottom:45vh;
-    left:85vw;
-  }
-  .img4 img{
-    max-inline-size: 10%;
-    block-size: auto;
-    position: absolute;
-    bottom:10vh;
-    left:17vw;
-  }
-  .img5 img{
-    max-inline-size: 6%;
-    block-size: auto;
-    position: absolute;
-    bottom:87vh;
-    left:25vw;
-  }
+ 
   .title svg{
     width:20vw;
     position: absolute;
     left:80vw;
-    top:50vw;
+    top:49vw;
 }
 .back{
     font-family: 'Monospace';
     font-size:1.5vw;
     position: absolute;
     left:85.5vw;
-    top:54vw;
+    top:53vw;
 }
 
 }
@@ -413,7 +307,7 @@ color: #88ff84;
     border: solid 1px;
     font-family: 'Monospace';
     font-size:0.8vw;
-    background-color:#88ff84;
+    background-color:#ff8a00;
     cursor: pointer;
     padding: 0.4vw;
     position:relative;
