@@ -446,3 +446,422 @@ svg{
 a{
   text-decoration-line: none;
 }
+
+@media (max-width: 600px){
+    .title svg{
+        width:120px;
+        position: absolute;
+        left:-1vw;
+        top:-1vw;
+    }
+    .text{
+        font-family: 'Monospace';
+        font-size:1.5vw;
+        position: absolute;
+        left:4vw;
+        top:4vw;
+    }
+    .time.time1 {
+        order: 1;
+        align-self: flex-start;
+        position: relative;
+        font-family: 'VT323';  
+        font-size:3.5px;
+        left:30vw;
+        top:4vw;
+    }
+    svg{
+        width:30px;
+        position:relative;
+        top:38.5px;
+        left:23vw;
+        
+        }
+        
+        svg.style {
+        fill: #ffff5b;
+        }
+        .cls-2{
+            fill: none;
+            stroke:#040000;
+            stroke-miterlimit:10;
+            stroke-width:3px;}
+     .bomb2 svg{
+                width:30px;
+                position:relative;
+                left:1vw;
+                top:20.3vw;
+            }
+                
+    .time.time2 {
+                order: 2;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: relative;
+                left:7.7vw;
+                top:15vw;
+            }
+ .time.time3 {
+                order: 3;
+                align-self: flex-start;
+                font-family: 'VT323';  
+                font-size:2.5vw;
+                position: relative;
+                left:-8vw;
+                top:34vw;
+            }
+ .bomb3 svg{
+                width:30px;
+                position:relative;
+                top:39vw;
+                left:-14vw;
+            }
+    .time.time4 {
+                order: 4;
+                align-self: flex-start;
+                font-family: 'VT323';  
+                font-size:2.5vw;
+                position: relative;
+                left:12vw;
+                top:89vw;
+            }
+    .bomb4 svg{
+                width:30px;
+                position:relative;
+                top:94.4vw;
+                left:4.9vw;
+            }
+    .time.time5 {
+                order: 5;
+                align-self: flex-start;
+                font-family: 'VT323';  
+                font-size:2.5vw;
+                position: relative;
+                left:-20vw;
+                top:54vw;
+            }
+    .bomb5 svg{
+                width:30px;
+                position:relative;
+                top:60vw;
+                left:-27vw;
+            }
+            .time.time6 {
+                order: 6;
+                align-self: flex-start;
+                font-family: 'VT323';  
+                font-size:2.5vw;
+                position: relative;
+                left:-20vw;
+                top:64vw;
+            }
+            .bomb6 svg{
+                width:30px;
+                position:relative;
+                top:70vw;
+                left:-27vw;
+            }
+            .time.time7 {
+                order: 7;
+                align-self: flex-start;
+                position: relative;
+                font-family: 'VT323';  
+                font-size:2.5vw;
+                position: relative;
+                left:-30vw;
+                top:80vw;
+            }
+            .bomb7 svg{
+                width:30px;
+                position:relative;
+                left:-36.9vw;
+                top:85.3vw;
+            }
+            .time.time8 {
+                order: 8;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: relative;
+                left:-42vw;
+                top:99vw;
+            }
+            .bomb8 svg{
+                width:30px;
+                position:relative;
+                top:105vw;
+                left:-48.9vw;
+            }
+            .time.time9 {
+                order: 9;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: relative;
+                left:-47vw;
+                top:124vw;
+            }
+            .bomb9 svg{
+                width:30px;
+                position:relative;
+                top:130vw;
+                left:-53.9vw;
+            }
+            .time.time10 {
+                order: 10;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left:40vw;
+                top:35vw;
+            }
+            .bomb10 svg{
+                width:30px;
+                position:absolute;
+                top:33vw;
+                left:33vw;
+            }
+            .time.time11 {
+                order: 11;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left:33vw;
+                top:54vw;
+            }
+            .bomb11 svg{
+                width:30px;
+                position:absolute;
+                top:52vw;
+                left:25vw;
+            }
+            .time.time12 {
+                order: 12;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left:57vw;
+                top:88vw;
+            }
+            .bomb12 svg{
+                width:30px;
+                position:absolute;
+                top:86vw;
+                left:50vw;
+            }
+            .time.time13 {
+                order: 13;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left:48vw;
+                top:70vw;
+            }
+            .bomb13 svg{
+                width:30px;
+                position:absolute;
+                top:68.5vw;
+                left:41vw;
+            }
+            .time.time14 {
+                order: 14;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left:52vw;
+                top:117vw;
+            }
+            .bomb14 svg{
+                width:30px;
+                position:absolute;
+                top:115vw;
+                left:45vw;
+            }
+            .time.time15 {
+                order: 15;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left:56vw;
+                top:21vw;
+            }
+            .bomb15 svg{
+                width:30px;
+                position:absolute;
+                top:19vw;
+                left:49.1vw;
+            }
+            .time.time16 {
+                order: 16;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left:73vw;
+                top:12.4vw;
+            }
+            .bomb16 svg{
+                width:30px;
+                position:absolute;
+                top:10vw;
+                left:66vw;
+            }
+            .time.time17 {
+                order: 17;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left:72vw;
+                top:39vw;
+            }
+            .bomb17 svg{
+                width:30px;
+                position:absolute;
+                top:37.5vw;
+                left:65.1vw;
+            }
+            .time.time18 {
+                order: 17;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left:67vw;
+                top:54vw;
+            }
+            .bomb18 svg{
+                width:30px;
+                position:absolute;
+                top:52.4vw;
+                left:60.1vw;
+            }
+            .time.time19 {
+                order: 17;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left:78vw;
+                top:97vw;
+            }
+            .bomb19 svg{
+                width:30px;
+                position:absolute;
+                top:95.5vw;
+                left:71.2vw;
+            }
+            .time.time20 {
+                order: 17;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left:72vw;
+                top:77vw;
+            }
+            .bomb20 svg{
+                width:30px;
+                position:absolute;
+                top:75.6vw;
+                left:65.1vw;
+            }
+            .time.time21 {
+                order: 17;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left: 70vw;
+                top:127vw;
+            }
+            .bomb21 svg{
+                width:30px;
+                position:absolute;
+                top:125.6vw;
+                left:63.1vw;
+            }
+            .time.time22 {
+                order: 17;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left: 80vw;
+                top:63vw;
+            }
+            .bomb22 svg{
+                width:30px;
+                position:absolute;
+                top:61.6vw;
+                left:73.1vw;
+            }
+            .time.time23 {
+                order: 23;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left: 47vw;
+                top:138vw;
+            }
+            .bomb23 svg{
+                width:30px;
+                position:absolute;
+                top:136.6vw;
+                left:40.1vw;
+            }
+            .time.time24 {
+                order: 23;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left: 78vw;
+                top:27vw;
+            }
+            .bomb24 svg{
+                width:30px;
+                position:absolute;
+                top:25vw;
+                left:70.1vw;
+            }
+            .time.time25 {
+                order: 23;
+                align-self: flex-start;
+                font-family: 'VT323';
+                font-size:2.5vw;
+                position: absolute;
+                left: 67vw;
+                top:108vw;
+            }
+            .bomb25 svg{
+                width:30px;
+                position:absolute;
+                top:106.5vw;
+                left:60.1vw;
+            }
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                height: 200vh;
+            }
+            .box {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 40px;
+                color: black;
+                
+                padding: 20px;
+                box-sizing: border-box;
+            }
+}
