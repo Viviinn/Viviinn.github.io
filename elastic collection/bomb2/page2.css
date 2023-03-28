@@ -44,35 +44,35 @@ button:hover{
     max-inline-size: 10%;
   block-size: auto;
   position: absolute;
-  bottom:60vh;
+  bottom:50vh;
   left:2vh;
   }
   .img2 img{
     max-inline-size: 10%;
     block-size: auto;
     position: absolute;
-    bottom:40vh;
+    bottom:30vh;
     left:20vw;
   }
   .img3 img{
     max-inline-size: 10%;
     block-size: auto;
     position: absolute;
-    bottom:60vh;
+    bottom:45vh;
     left:85vw;
   }
   .img4 img{
     max-inline-size: 10%;
     block-size: auto;
     position: absolute;
-    bottom:75vh;
-    left:25vw;
+    bottom:65vh;
+    left:20vw;
   }
   .img5 img{
     max-inline-size: 10%;
     block-size: auto;
     position: absolute;
-    bottom:45vh;
+    bottom:32vh;
     left:65vw;
   }
 
@@ -80,7 +80,7 @@ button:hover{
     width:20vw;
     position: absolute;
     left:80vw;
-    top:106.8vw;
+    top:110.8vw;
 }
 .back:hover{
   color: #88ff84;
@@ -90,7 +90,7 @@ button:hover{
     font-size:1.5vw;
     position: absolute;
     left:85.5vw;
-    top:111vw;
+    top:115vw;
 }
 
 
