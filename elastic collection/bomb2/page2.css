@@ -93,6 +93,85 @@ button:hover{
     top:115vw;
 }
 
+
+
+@media (max-width: 600px){
+  .responsive {
+      position: relative;
+      top:40vw;
+  }
+  .text{
+      text-align:center;
+      font-family: 'Monospace';
+      font-size: 1.3vw;
+      position: relative;
+      top:43vw;
+      
+    }
+    button{
+      border: solid 1px;
+      font-family: 'Monospace';
+      font-size:0.8vw;
+      background-color:#88ff84;
+      cursor: pointer;
+      padding: 0.4vw;
+      position:relative;
+      top:38vw;
+  
+  }
+  .img1 img{
+      max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:50vh;
+    left:4vh;
+    }
+    .img2 img{
+      max-inline-size: 8%;
+      block-size: auto;
+      position: absolute;
+      bottom:30vh;
+      left:75vw;
+    }
+    .img3 img{
+      max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:50vh;
+      left:85vw;
+    }
+    .img4 img{
+      max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:30vh;
+      left:9vw;
+    }
+    .img5 img{
+      max-inline-size: 6%;
+      block-size: auto;
+      position: absolute;
+      bottom:73vh;
+      left:25vw;
+    }
+    .title svg{
+      width:31vw;
+      position: absolute;
+      left:71vw;
+      top:111vw;
+  }
+  .back{
+      font-family: 'Monospace';
+      font-size:1.5vw;
+      position: absolute;
+      left:78vw;
+      top:117vw;
+  }
+  
+}
+
+
+
 @media (min-width: 600px){
   .responsive {
       position: relative;
@@ -121,15 +200,15 @@ button:hover{
       max-inline-size: 10%;
     block-size: auto;
     position: absolute;
-    bottom:55vh;
+    bottom:50vh;
     left:4vh;
     }
     .img2 img{
       max-inline-size: 8%;
       block-size: auto;
       position: absolute;
-      bottom:35vh;
-      left:65vw;
+      bottom:30vh;
+      left:75vw;
     }
     .img3 img{
       max-inline-size: 10%;
@@ -142,8 +221,8 @@ button:hover{
       max-inline-size: 10%;
       block-size: auto;
       position: absolute;
-      bottom:40vh;
-      left:7vw;
+      bottom:30vh;
+      left:9vw;
     }
     .img5 img{
       max-inline-size: 6%;
@@ -153,17 +232,17 @@ button:hover{
       left:25vw;
     }
     .title svg{
-      width:20vw;
+      width:31vw;
       position: absolute;
-      left:80vw;
-      top:90vw;
+      left:71vw;
+      top:111vw;
   }
   .back{
       font-family: 'Monospace';
       font-size:1.5vw;
       position: absolute;
-      left:85.5vw;
-      top:94vw;
+      left:78vw;
+      top:117vw;
   }
   
 }
@@ -225,7 +304,7 @@ button:hover{
       block-size: auto;
       position: absolute;
       bottom:87vh;
-      left:25vw;
+      left:20vw;
     }
     .title svg{
       width:20vw;
