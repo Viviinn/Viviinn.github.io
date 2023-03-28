@@ -1,0 +1,476 @@
+@font-face {
+    font-family: 'Monospace';
+    src: url('Monospace.woff2') format('woff2'),
+        url('Monospace.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.responsive {
+    width: 60%;
+    height: auto;
+    position: relative;
+    top:60vw;
+  }
+
+  button{
+    border: solid 1px;
+    font-family: 'Monospace';
+    font-size:0.8vw;
+    background-color:#ff8a00;
+
+    cursor: pointer;
+    padding: 0.4vw;
+    position:relative;
+    top:58vw;
+
+}
+button:hover{
+    background-color: #ffc583;
+}
+
+  .text{
+    text-align:center;
+    font-family: 'Monospace';
+    font-size: 1.3vw;
+    position: relative;
+    top:63vw;
+    
+  }
+ 
+  .img1 img{
+    max-inline-size: 10%;
+  block-size: auto;
+  position: absolute;
+  bottom:50vh;
+  left:2vh;
+  }
+  .img2 img{
+    max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:30vh;
+    left:20vw;
+  }
+  .img3 img{
+    max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:45vh;
+    left:85vw;
+  }
+  .img4 img{
+    max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:65vh;
+    left:20vw;
+  }
+  .img5 img{
+    max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:32vh;
+    left:65vw;
+  }
+
+  .title svg{
+    width:20vw;
+    position: absolute;
+    left:80vw;
+    top:110.8vw;
+}
+.back:hover{
+  color:#ff8a00;
+}
+.back{
+    font-family: 'Monospace';
+    font-size:1.5vw;
+    position: absolute;
+    left:85.5vw;
+    top:115vw;
+}
+
+
+
+@media (max-width: 600px){
+  .responsive {
+      position: relative;
+      top:40vw;
+  }
+  .text{
+      text-align:center;
+      font-family: 'Monospace';
+      font-size: 1.3vw;
+      position: relative;
+      top:43vw;
+      
+    }
+    button{
+      border: solid 1px;
+      font-family: 'Monospace';
+      font-size:0.8vw;
+      background-color:#ff8a00;
+      cursor: pointer;
+      padding: 0.4vw;
+      position:relative;
+      top:38vw;
+  
+  }
+  .img1 img{
+      max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:50vh;
+    left:4vh;
+    }
+    .img2 img{
+      max-inline-size: 8%;
+      block-size: auto;
+      position: absolute;
+      bottom:30vh;
+      left:75vw;
+    }
+    .img3 img{
+      max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:50vh;
+      left:85vw;
+    }
+    .img4 img{
+      max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:30vh;
+      left:9vw;
+    }
+    .img5 img{
+      max-inline-size: 6%;
+      block-size: auto;
+      position: absolute;
+      bottom:73vh;
+      left:25vw;
+    }
+    .title svg{
+      width:31vw;
+      position: absolute;
+      left:71vw;
+      top:111vw;
+  }
+  .back{
+      font-family: 'Monospace';
+      font-size:1.5vw;
+      position: absolute;
+      left:78vw;
+      top:117vw;
+  }
+  
+}
+
+
+
+@media (min-width: 600px){
+  .responsive {
+      position: relative;
+      top:40vw;
+  }
+  .text{
+      text-align:center;
+      font-family: 'Monospace';
+      font-size: 1.3vw;
+      position: relative;
+      top:43vw;
+      
+    }
+    button{
+      border: solid 1px;
+      font-family: 'Monospace';
+      font-size:0.8vw;
+      background-color:#ff8a00;
+      cursor: pointer;
+      padding: 0.4vw;
+      position:relative;
+      top:38vw;
+  
+  }
+  .img1 img{
+      max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:50vh;
+    left:4vh;
+    }
+    .img2 img{
+      max-inline-size: 8%;
+      block-size: auto;
+      position: absolute;
+      bottom:30vh;
+      left:75vw;
+    }
+    .img3 img{
+      max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:50vh;
+      left:85vw;
+    }
+    .img4 img{
+      max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:30vh;
+      left:9vw;
+    }
+    .img5 img{
+      max-inline-size: 6%;
+      block-size: auto;
+      position: absolute;
+      bottom:73vh;
+      left:25vw;
+    }
+    .title svg{
+      width:31vw;
+      position: absolute;
+      left:71vw;
+      top:111vw;
+  }
+  .back{
+      font-family: 'Monospace';
+      font-size:1.5vw;
+      position: absolute;
+      left:78vw;
+      top:117vw;
+  }
+  
+}
+
+@media (min-width: 768px){
+  .responsive {
+      position: relative;
+      top:6vw;
+  }
+  .text{
+      text-align:center;
+      font-family: 'Monospace';
+      font-size: 1.3vw;
+      position: relative;
+      top:8vw;
+      
+    }
+    button{
+      border: solid 1px;
+      font-family: 'Monospace';
+      font-size:0.8vw;
+      background-color:#ff8a00;
+      cursor: pointer;
+      padding: 0.4vw;
+      position:relative;
+      top:5vw;
+  
+  }
+  .img1 img{
+      max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:55vh;
+    left:5vh;
+    }
+    .img2 img{
+      max-inline-size: 8%;
+      block-size: auto;
+      position: absolute;
+      bottom:30vh;
+      left:65vw;
+    }
+    .img3 img{
+      max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:45vh;
+      left:85vw;
+    }
+    .img4 img{
+      max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:30vh;
+      left:7vw;
+    }
+    .img5 img{
+      max-inline-size: 6%;
+      block-size: auto;
+      position: absolute;
+      bottom:87vh;
+      left:20vw;
+    }
+    .title svg{
+      width:20vw;
+      position: absolute;
+      left:80vw;
+      top:52vw;
+  }
+  .back{
+      font-family: 'Monospace';
+      font-size:1.5vw;
+      position: absolute;
+      left:85.5vw;
+      top:56vw;
+  }
+  
+}
+@media (min-width: 992px){
+  .responsive {
+      position: relative;
+      top:3vw;
+  }
+  .text{
+      text-align:center;
+      font-family: 'Monospace';
+      font-size: 1.3vw;
+      position: relative;
+      top:6vw;
+      
+    }
+    button{
+      border: solid 1px;
+      font-family: 'Monospace';
+      font-size:0.8vw;
+      background-color:#ff8a00;
+      cursor: pointer;
+      padding: 0.4vw;
+      position:relative;
+      top:3vw;
+  
+  }
+  .img1 img{
+      max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:45vh;
+    left:5vh;
+    }
+    .img2 img{
+      max-inline-size: 8%;
+      block-size: auto;
+      position: absolute;
+      bottom:10vh;
+      left:65vw;
+    }
+    .img3 img{
+      max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:45vh;
+      left:85vw;
+    }
+    .img4 img{
+      max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:10vh;
+      left:17vw;
+    }
+    .img5 img{
+      max-inline-size: 6%;
+      block-size: auto;
+      position: absolute;
+      bottom:87vh;
+      left:25vw;
+    }
+    .title svg{
+      width:20vw;
+      position: absolute;
+      left:80vw;
+      top:50vw;
+  }
+  .back{
+      font-family: 'Monospace';
+      font-size:1.5vw;
+      position: absolute;
+      left:85.5vw;
+      top:54vw;
+  }
+  
+}
+
+@media (min-width: 1200px){
+  .responsive {
+      position: relative;
+      top:1vw;
+  }
+  .text{
+      text-align:center;
+      font-family: 'Monospace';
+      font-size: 1.3vw;
+      position: relative;
+      top:3vw;
+      
+    }
+    button{
+      border: solid 1px;
+      font-family: 'Monospace';
+      font-size:0.8vw;
+      background-color:#ff8a00;
+      cursor: pointer;
+      padding: 0.4vw;
+      position:relative;
+      top:1vw;
+  
+  }
+  .img1 img{
+      max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:55vh;
+    left:6vh;
+    }
+    .img2 img{
+      max-inline-size: 8%;
+      block-size: auto;
+      position: absolute;
+      bottom:5vh;
+      left:65vw;
+    }
+    .img3 img{
+      max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:35vh;
+      left:85vw;
+    }
+    .img4 img{
+      max-inline-size: 10%;
+      block-size: auto;
+      position: absolute;
+      bottom:23vh;
+      left:7vw;
+    }
+    .img5 img{
+      max-inline-size: 6%;
+      block-size: auto;
+      position: absolute;
+      bottom:10vh;
+      left:25vw;
+    }
+    .title svg{
+      width:20vw;
+      position: absolute;
+      left:80vw;
+      top:44vw;
+  }
+  .back{
+      font-family: 'Monospace';
+      font-size:1.5vw;
+      position: absolute;
+      left:85.5vw;
+      top:48vw;
+  }
+  
+}
+
+  
+
+  
