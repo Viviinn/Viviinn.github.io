@@ -78,13 +78,14 @@ color: #ff8a00;
 .text{
     text-align:center;
     font-family: 'Monospace';
-    font-size: 1.3vw;
+    font-size: 15px;
     position: relative;
     top:13vw;
     
   }
   button{
     border: solid 1px;
+    border-color: black;
     font-family: 'Monospace';
     font-size:25px;
     background-color:#ff8a00;
@@ -103,18 +104,22 @@ color: #ff8a00;
   }
  
   .title svg{
-    width:31vw;
+    width:80vw;
     position: absolute;
-    left:35vw;
-    top:150vw;
+    left:15vw;
+    top:140vw;
 }
 .back{
     font-family: 'Monospace';
-    font-size:3px;
+    font-size:25px;
     position: absolute;
-    left:40vw;
+    left:35vw;
     top:156vw;
 }
+a:link{color:rgb(0, 0, 0);}
+a:hover{color:rgb(0, 0, 0);}
+a:visited{color:rgb(0, 0, 0);}
+a:active{color:rgb(0, 0, 0);}
 
 }
 
