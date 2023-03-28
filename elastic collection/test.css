@@ -449,18 +449,21 @@ a{
 
 @media (max-width: 600px){
     .title svg{
-        width:120px;
+        width:80vw;
         position: absolute;
-        left:-1vw;
-        top:-1vw;
+        left:12vw;
+        top:135vw;
     }
     .text{
         font-family: 'Monospace';
-        font-size:1.5vw;
+        font-size:7vw;
+        
         position: absolute;
-        left:4vw;
-        top:4vw;
+        
+        left:30vw;
+        top:151vw;
     }
+    
     .time.time1 {
         order: 1;
         align-self: flex-start;
