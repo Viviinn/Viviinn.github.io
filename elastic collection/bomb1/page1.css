@@ -71,17 +71,17 @@ button:hover{
     top:48.9vw;
 }
 
-  @media (min-width: 360px){
+  @media (min-width: 480px){
     .responsive{
         position: relative;
-        top:30vw;
+        top:40vw;
     }
     .text{
         text-align:center;
         font-family: 'Monospace';
         font-size: 1.3vw;
         position: relative;
-        top:33vw;
+        top:43vw;
         
       }
       button{
@@ -92,42 +92,42 @@ button:hover{
         cursor: pointer;
         padding: 0.4vw;
         position:relative;
-        top:30vw;
+        top:40vw;
     
     }
     .img1 img{
         max-inline-size: 10%;
       block-size: auto;
       position: absolute;
-      bottom:54vh;
+      bottom:64vh;
       left:4vh;
       }
       .img2 img{
         max-inline-size: 10%;
         block-size: auto;
         position: absolute;
-        bottom:52vh;
+        bottom:62vh;
         left:85vw;
       }
       .img3 img{
         max-inline-size: 10%;
         block-size: auto;
         position: absolute;
-        bottom:35vh;
+        bottom:50vh;
         left:10vw;
       }
       .title svg{
         width:28vw;
         position: absolute;
         left:74vw;
-        top:86.5vw;
+        top:96.5vw;
     }
     .back{
         font-family: 'Monospace';
         font-size:0.1vw;
         position: absolute;
         left:80.5vw;
-        top:92vw;
+        top:102vw;
     }
 
   }
