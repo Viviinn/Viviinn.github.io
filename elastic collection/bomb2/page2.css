@@ -82,6 +82,9 @@ button:hover{
     left:80vw;
     top:106.8vw;
 }
+.back:hover{
+  color: #88ff84;
+}
 .back{
     font-family: 'Monospace';
     font-size:1.5vw;
@@ -90,80 +93,8 @@ button:hover{
     top:111vw;
 }
 
-@media (min-width: 768px){
-  .responsive {
-      position: relative;
-      top:10vw;
-  }
-  .text{
-      text-align:center;
-      font-family: 'Monospace';
-      font-size: 1.3vw;
-      position: relative;
-      top:12vw;
-      
-    }
-    button{
-      border: solid 1px;
-      font-family: 'Monospace';
-      font-size:0.8vw;
-      background-color:#88ff84;
-      cursor: pointer;
-      padding: 0.4vw;
-      position:relative;
-      top:10vw;
-  
-  }
-  .img1 img{
-      max-inline-size: 10%;
-    block-size: auto;
-    position: absolute;
-    bottom:50vh;
-    left:6vh;
-    }
-    .img2 img{
-      max-inline-size: 10%;
-      block-size: auto;
-      position: absolute;
-      bottom:10vh;
-      left:65vw;
-    }
-    .img3 img{
-      max-inline-size: 10%;
-      block-size: auto;
-      position: absolute;
-      bottom:35vh;
-      left:85vw;
-    }
-    .img4 img{
-      max-inline-size: 10%;
-      block-size: auto;
-      position: absolute;
-      bottom:83vh;
-      left:20vw;
-    }
-    .img5 img{
-      max-inline-size: 10%;
-      block-size: auto;
-      position: absolute;
-      bottom:15vh;
-      left:25vw;
-    }
-    .title svg{
-      width:20vw;
-      position: absolute;
-      left:80vw;
-      top:60.8vw;
-  }
-  .back{
-      font-family: 'Monospace';
-      font-size:1.5vw;
-      position: absolute;
-      left:85.5vw;
-      top:64.9vw;
-  }
-  
-}
+
+
 
 @media (min-width: 1280px){
   .responsive {
