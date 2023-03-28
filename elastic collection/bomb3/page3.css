@@ -104,17 +104,17 @@ color: #ff8a00;
   }
  
   .title svg{
-    width:80vw;
+    width:70vw;
     position: absolute;
-    left:15vw;
-    top:140vw;
+    left:18vw;
+    top:144vw;
 }
 .back{
     font-family: 'Monospace';
-    font-size:25px;
+    font-size:6vw;
     position: absolute;
-    left:35vw;
-    top:156vw;
+    left:34vw;
+    top:158vw;
 }
 a:link{color:rgb(0, 0, 0);}
 a:hover{color:rgb(0, 0, 0);}
