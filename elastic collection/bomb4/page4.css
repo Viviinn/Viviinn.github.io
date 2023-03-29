@@ -279,8 +279,16 @@ a:active{color:rgb(0, 0, 0);}
   block-size: auto;
   position: absolute;
   bottom:45vh;
-  left:5vh;
+  left:7vh;
   }
+  .img2 img{
+    max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:35vh;
+    left:84vw;
+  }
+  
  
   .title svg{
     width:20vw;
