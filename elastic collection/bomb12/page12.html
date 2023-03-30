@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bomb Time!</title>
+    <link rel="stylesheet" href="page12.css">
+	
+	
+</head>
+<body>
+
+    <div style="text-align:center"> <br>
+        <button onclick="playPause()">Play/Pause</button>
+        <button type="button" value="TURN ON" onclick="toggleImages()">Seeeeeee people's reactions</button>
+    <br><br><video id="video1" class="responsive" width="820vw" >
+        <source src="12.mov" type="video/mp4"></video>
+    </div>
+    <div class="img1">
+    <img id="image1" src="img1.jpg" style="display:non"></div>
+    <div class="img2">
+      <img id="image2" src="img2.jpg" style="display:non"></div>
+    <script> 
+        var myVideo = document.getElementById("video1"); 
+        
+        function playPause() { 
+          if (myVideo.paused) 
+            myVideo.play(); 
+          else 
+            myVideo.pause(); 
+        } 
+        </script>
+        <script>
+        function toggleImages() {
+  var img1 = document.getElementById("image1");
+  var img2 = document.getElementById("image2");
+  if (img1.style.display === "none") {
+    img1.style.display = "block";
+    img2.style.display = "block";
+   
+  } else {
+    img1.style.display = "none";
+    img2.style.display = "none";
+  }
+}
+</script> 
+<div class="text">
+<body>
+    2023.3.13<br>
+    DeSalvio Playground<br>
+    40.72190° N, 73.99620° W<br>
+    5:12 PM<br>
+    Balloon-color: purple<br>
+    Some people have reacted.<br>
+</body> 
+</div> 
+<div class="title"><a href="../test.html">
+  <?xml version="1.0" encoding="UTF-8"?><svg id="bom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 618.95 289.94"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2px;}</style></defs><polygon class="cls-1" points="185.52 67.34 162.3 124.66 132.92 124.66 115.15 187.05 185.52 222.6 233.4 199.75 303.05 222.6 319.38 214.98 419.5 222.6 419.5 207.73 486.97 187.77 462.66 168.55 449.61 83.66 415.14 102.53 319.38 73.87 257.71 111.96 185.52 67.34"style="fill:none;"/></svg>
+  <span class="blinking"><div class="back">Bomb Time!</div></span>
+</div></a>
+<style>
+  a:link{color:rgb(0, 0, 0);}
+  a:hover{color:rgb(0, 0, 0);}
+  a:visited{color:rgb(0, 0, 0);}
+  a:active{color:rgb(0, 0, 0);}
+      </style>
+  
+    </body>
+</html>
