@@ -348,14 +348,14 @@ a:active{color:rgb(0, 0, 0);}
     max-inline-size: 8%;
     block-size: auto;
     position: absolute;
-    bottom:19vh;
+    bottom:29vh;
     left:10vw;
   }
   .img4 img{
     max-inline-size: 10%;
     block-size: auto;
     position: absolute;
-    bottom:30vh;
+    bottom:40vh;
     left:83vw;
   }
  
@@ -410,21 +410,21 @@ a:active{color:rgb(0, 0, 0);}
     max-inline-size: 10%;
     block-size: auto;
     position: absolute;
-    bottom:17vh;
+    bottom:27vh;
     left:84vw;
   }
   .img3 img{
     max-inline-size: 8%;
     block-size: auto;
     position: absolute;
-    bottom:5vh;
+    bottom:8vh;
     left:10vw;
   }
   .img4 img{
     max-inline-size: 9%;
     block-size: auto;
     position: absolute;
-    bottom:55vh;
+    bottom:65vh;
     left:83vw;
   }
   
