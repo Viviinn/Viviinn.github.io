@@ -28,7 +28,7 @@ button{
 
 }
 button:hover{
-  background-color: #f3d1ff;
+  background-color:#f2cdff;
 }
 
 .text{
@@ -39,15 +39,11 @@ button:hover{
   top:63vw;
   
 }
-
-.img1 img{
-  max-inline-size: 10%;
-block-size: auto;
-position: absolute;
-bottom:50vh;
-left:2vh;
+.hidden{
+  position: absolute;
+  bottom:91vw;
+  left:70vw;
 }
-
 
 
 .title svg{
@@ -96,13 +92,12 @@ color:#db7bff;
     top:3vw;
 
 }
-.img1 img{
-    max-inline-size: 30%;
-  block-size: auto;
+.hidden{
   position: absolute;
-  bottom:17vh;
-  left:1vh;
-  }
+  bottom:159vw;
+  left:50vw;
+}
+
 
   .title svg{
     width:70vw;
@@ -150,15 +145,12 @@ a:active{color:rgb(0, 0, 0);}
     top:38vw;
 
 }
-.img1 img{
-    max-inline-size: 10%;
-  block-size: auto;
+.hidden{
   position: absolute;
-  bottom:50vh;
-  left:4vh;
-  }
+  bottom:159vw;
+  left:50vw;
+}
 
-  
   .title svg{
     width:31vw;
     position: absolute;
@@ -199,15 +191,11 @@ a:active{color:rgb(0, 0, 0);}
     top:2vw;
 
 }
-.img1 img{
-    max-inline-size: 15%;
-  block-size: auto;
+.hidden{
   position: absolute;
-  bottom:58vh;
-  left:3vh;
-  }
-
-  
+  top:6vw;
+  left:72vw;
+}
 
   .title svg{
     width:20vw;
@@ -248,13 +236,11 @@ a:active{color:rgb(0, 0, 0);}
     top:1vw;
 
 }
-.img1 img{
-    max-inline-size: 15%;
-  block-size: auto;
+.hidden{
   position: absolute;
-  bottom:55vh;
-  left:3vh;
-  }
+  top:4vw;
+  left:68vw;
+}
   
  
   .title svg{
@@ -297,28 +283,26 @@ a:active{color:rgb(0, 0, 0);}
     top:1vw;
 
 }
-.img1 img{
-    max-inline-size: 15%;
-  block-size: auto;
-  position: absolute;
-  bottom:34vh;
-  left:4vh;
-  }
 
+.hidden{
+  position: absolute;
+  top:3vw;
+  left:64vw;
+}
   
 
   .title svg{
     width:20vw;
     position: absolute;
     left:80vw;
-    top:44vw;
+    top:43vw;
 }
 .back{
     font-family: 'Monospace';
     font-size:1.5vw;
     position: absolute;
     left:85.5vw;
-    top:48vw;
+    top:47vw;
 }
 
 }
