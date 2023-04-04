@@ -525,30 +525,30 @@ a{
                 align-self: flex-start;
                 font-family: 'VT323';  
                 font-size:10vw;
-                position: relative;
-                left:14.5vw;
-                top:-87.4vw;
+                position: absolute;
+                left:17vw;
+                top:109.4vw;
             }
     .bomb4 svg{
                 width:60px;
-                position:relative;
-                top:-74.5vw;
-                left:1vw;
+                position:absolute;
+                top:109vw;
+                left:3vw;
             }
     .time.time5 {
                 order: 5;
                 align-self: flex-start;
                 font-family: 'VT323';  
                 font-size:10vw;
-                position: relative;
-                left:-14vw;
-                top:-54vw;
+                position: absolute;
+                left:20vw;
+                top:144vw;
             }
     .bomb5 svg{
                 width:60px;
-                position:relative;
-                top:-42vw;
-                left:-27vw;
+                position:absolute;
+                top: 143vw;
+                left:6vw;
             }
             .time.time6 {
                 order: 6;
@@ -572,7 +572,7 @@ a{
                 font-family: 'VT323';  
                 font-size:10vw;
                
-                left:71vw;
+                left:72vw;
                 top:93vw;
             }
             .bomb7 svg{
@@ -586,15 +586,15 @@ a{
                 align-self: flex-start;
                 font-family: 'VT323';
                 font-size:10vw;
-                position: relative;
-                left:-2vw;
-                top:-70vw;
+                position: absolute;
+                left:60vw;
+                top:131vw;
             }
             .bomb8 svg{
                 width:60px;
-                position:relative;
-                top:-56vw;
-                left:-15vw;
+                position:absolute;
+                top:130vw;
+                left:45vw;
             }
             .time.time9 {
                 order: 9;
