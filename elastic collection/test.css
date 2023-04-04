@@ -868,3 +868,8 @@ a{
                 box-sizing: border-box;
             }
 }
+
+@media (min-width: 600px){
+
+
+}
