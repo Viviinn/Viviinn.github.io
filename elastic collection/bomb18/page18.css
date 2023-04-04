@@ -1,0 +1,420 @@
+@font-face {
+  font-family: 'Monospace';
+  src: url('Monospace.woff2') format('woff2'),
+      url('Monospace.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.responsive {
+  width: 60%;
+  height: auto;
+  position: relative;
+  top:60vw;
+}
+
+button{
+  border: solid 1px;
+  font-family: 'Monospace';
+  font-size:0.8vw;
+  background-color:#0072ebbd;
+
+  cursor: pointer;
+  padding: 0.4vw;
+  position:relative;
+  top:58vw;
+
+}
+button:hover{
+  background-color: #add5ffbd;
+}
+
+.text{
+  text-align:center;
+  font-family: 'Monospace';
+  font-size: 1.3vw;
+  position: relative;
+  top:63vw;
+  
+}
+
+.img1 img{
+  max-inline-size: 10%;
+block-size: auto;
+position: absolute;
+bottom:50vh;
+left:2vh;
+}
+.img2 img{
+  max-inline-size: 10%;
+  block-size: auto;
+  position: absolute;
+  bottom:25vh;
+  left:83vw;
+}
+.img3 img{
+  max-inline-size: 10%;
+  block-size: auto;
+  position: absolute;
+  bottom:45vh;
+  left:85vw;
+}
+.img4 img{
+  max-inline-size: 10%;
+  block-size: auto;
+  position: absolute;
+  bottom:65vh;
+  left:20vw;
+}
+
+
+.title svg{
+  width:20vw;
+  position: absolute;
+  left:80vw;
+  top:110.8vw;
+}
+.back:hover{
+color:#0072ebbd;
+}
+.back{
+  font-family: 'Monospace';
+  font-size:1.5vw;
+  position: absolute;
+  left:85.5vw;
+  top:115vw;
+}
+
+
+
+@media (max-width: 600px){
+.responsive {
+  width: 90%;
+  height: auto;
+    position: relative;
+    top:8vw;
+}
+.text{
+    text-align:center;
+    font-family: 'Monospace';
+    font-size: 15px;
+    position: relative;
+    top:13vw;
+    
+  }
+  button{
+    border: solid 1px;
+    border-color: black;
+    font-family: 'Monospace';
+    font-size:25px;
+    background-color:#0072ebbd;
+    cursor: pointer;
+    padding: 5px;
+    position:relative;
+    top:3vw;
+
+}
+.img1 img{
+    max-inline-size: 20%;
+  block-size: auto;
+  position: absolute;
+  bottom:15vh;
+  left:4vh;
+  }
+  .img2 img{
+    max-inline-size: 15%;
+    block-size: auto;
+    position: absolute;
+    bottom:20vh;
+    left:75vw;
+  }
+  .img3 img{
+    max-inline-size: 8%;
+    block-size: auto;
+    position: absolute;
+    bottom:38vh;
+    left:10vw;
+  }
+
+  
+ 
+  .title svg{
+    width:70vw;
+    position: absolute;
+    left:18vw;
+    top:144vw;
+}
+.back{
+    font-family: 'Monospace';
+    font-size:6vw;
+    position: absolute;
+    left:34vw;
+    top:158vw;
+}
+a:link{color:rgb(0, 0, 0);}
+a:hover{color:rgb(0, 0, 0);}
+a:visited{color:rgb(0, 0, 0);}
+a:active{color:rgb(0, 0, 0);}
+
+}
+
+
+
+@media (min-width: 600px){
+.responsive {
+    position: relative;
+    top:40vw;
+}
+.text{
+    text-align:center;
+    font-family: 'Monospace';
+    font-size: 1.3vw;
+    position: relative;
+    top:43vw;
+    
+  }
+  button{
+    border: solid 1px;
+    font-family: 'Monospace';
+    font-size:0.8vw;
+    background-color:#0072ebbd;
+    cursor: pointer;
+    padding: 0.4vw;
+    position:relative;
+    top:38vw;
+
+}
+.img1 img{
+    max-inline-size: 10%;
+  block-size: auto;
+  position: absolute;
+  bottom:50vh;
+  left:4vh;
+  }
+  .img2 img{
+    max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:45vh;
+    left:97vh;
+  }
+  .img3 img{
+    max-inline-size: 8%;
+    block-size: auto;
+    position: absolute;
+    bottom:19vh;
+    left:10vw;
+  }
+ 
+  
+  .title svg{
+    width:31vw;
+    position: absolute;
+    left:71vw;
+    top:111vw;
+}
+.back{
+    font-family: 'Monospace';
+    font-size:1.5vw;
+    position: absolute;
+    left:78vw;
+    top:117vw;
+}
+
+}
+
+@media (min-width: 768px){
+.responsive {
+    position: relative;
+    top:2vw;
+}
+.text{
+    text-align:center;
+    font-family: 'Monospace';
+    font-size: 1.3vw;
+    position: relative;
+    top:4vw;
+    
+  }
+  button{
+    border: solid 1px;
+    font-family: 'Monospace';
+    font-size:0.8vw;
+    background-color:#0072ebbd;
+    cursor: pointer;
+    padding: 0.4vw;
+    position:relative;
+    top:2vw;
+
+}
+.img1 img{
+    max-inline-size: 14%;
+  block-size: auto;
+  position: absolute;
+  bottom:64vh;
+  left:5vh;
+  }
+  .img2 img{
+    max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:60vh;
+    left:83vw;
+  }
+  .img3 img{
+    max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:40vh;
+    left:8vw;
+  }
+
+  
+
+  .title svg{
+    width:20vw;
+    position: absolute;
+    left:80vw;
+    top:51vw;
+}
+.back{
+    font-family: 'Monospace';
+    font-size:1.5vw;
+    position: absolute;
+    left:85.5vw;
+    top:55vw;
+}
+
+}
+@media (min-width: 992px){
+.responsive {
+    position: relative;
+    top:1vw;
+}
+.text{
+    text-align:center;
+    font-family: 'Monospace';
+    font-size: 1.3vw;
+    position: relative;
+    top:3vw;
+    
+  }
+  button{
+    border: solid 1px;
+    font-family: 'Monospace';
+    font-size:0.8vw;
+    background-color:#0072ebbd;
+    cursor: pointer;
+    padding: 0.4vw;
+    position:relative;
+    top:1vw;
+
+}
+.img1 img{
+    max-inline-size: 14%;
+  block-size: auto;
+  position: absolute;
+  bottom:55vh;
+  left:5vh;
+  }
+  .img2 img{
+    max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:65vh;
+    left:85vw;
+  }
+  .img3 img{
+    max-inline-size: 8%;
+    block-size: auto;
+    position: absolute;
+    bottom:29vh;
+    left:10vw;
+  }
+
+ 
+  .title svg{
+    width:20vw;
+    position: absolute;
+    left:80vw;
+    top:46vw;
+}
+.back{
+    font-family: 'Monospace';
+    font-size:1.5vw;
+    position: absolute;
+    left:85.5vw;
+    top:50vw;
+}
+
+}
+
+@media (min-width: 1200px){
+.responsive {
+    position: relative;
+    top:1vw;
+}
+.text{
+    text-align:center;
+    font-family: 'Monospace';
+    font-size: 1.3vw;
+    position: relative;
+    top:3vw;
+    
+  }
+  button{
+    border: solid 1px;
+    font-family: 'Monospace';
+    font-size:0.8vw;
+    background-color:#0072ebbd;
+    cursor: pointer;
+    padding: 0.4vw;
+    position:relative;
+    top:1vw;
+
+}
+.img1 img{
+    max-inline-size: 14%;
+  block-size: auto;
+  position: absolute;
+  bottom:35vh;
+  left:9vh;
+  }
+  .img2 img{
+    max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:27vh;
+    left:84vw;
+  }
+  .img3 img{
+    max-inline-size: 8%;
+    block-size: auto;
+    position: absolute;
+    bottom:8vh;
+    left:10vw;
+  }
+
+  
+
+  .title svg{
+    width:20vw;
+    position: absolute;
+    left:80vw;
+    top:44vw;
+}
+.back{
+    font-family: 'Monospace';
+    font-size:1.5vw;
+    position: absolute;
+    left:85.5vw;
+    top:48vw;
+}
+
+}
+
+  
+
+  
