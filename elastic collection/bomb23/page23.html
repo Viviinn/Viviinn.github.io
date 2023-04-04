@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bomb Time!</title>
+    <link rel="stylesheet" href="page23.css">
+	
+	
+</head>
+<body>
+
+    <div style="text-align:center"> <br>
+        <button onclick="playPause()">Play/Pause</button>
+        <button type="button" value="TURN ON" id="show-button">Seeeeeee people's reactions</button>
+    <br><br><video id="video1" class="responsive" width="820vw" >
+        <source src="23.mov" type="video/mp4"></video>
+    </div>
+    <div class="hidden" id="hidden-text" style="display:none;">No reactions!!</div>
+    
+    
+    <script> 
+        var myVideo = document.getElementById("video1"); 
+        
+        function playPause() { 
+          if (myVideo.paused) 
+            myVideo.play(); 
+          else 
+            myVideo.pause(); 
+        } 
+        </script>
+        <script>
+ const showButton = document.getElementById("show-button");
+const hiddenText = document.getElementById("hidden-text");
+
+showButton.addEventListener("click", function() {
+  if (hiddenText.style.display === "none") {
+    hiddenText.style.display = "block";
+    showButton.textContent = "Seeeeeee people's reactions";
+  } else {
+    hiddenText.style.display = "none";
+    showButton.textContent = "Seeeeeee people's reactions";
+  }
+});
+</script> 
+<div class="text">
+<body>
+    2023.3.20<br>
+    Grove Street,Jersey City<br>
+    40.71940° N, 74.04130° W<br>
+    4:47 PM<br>
+    Balloon-color: yellow<br>
+    No one has reacted.<br>
+</body> 
+</div> 
+<div class="title"><a href="../test.html">
+  <?xml version="1.0" encoding="UTF-8"?><svg id="bom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 618.95 289.94"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2px;}</style></defs><polygon class="cls-1" points="185.52 67.34 162.3 124.66 132.92 124.66 115.15 187.05 185.52 222.6 233.4 199.75 303.05 222.6 319.38 214.98 419.5 222.6 419.5 207.73 486.97 187.77 462.66 168.55 449.61 83.66 415.14 102.53 319.38 73.87 257.71 111.96 185.52 67.34"style="fill:none;"/></svg>
+  <span class="blinking"><div class="back">Bomb Time!</div></span>
+</div></a>
+<style>
+  a:link{color:rgb(0, 0, 0);}
+  a:hover{color:rgb(0, 0, 0);}
+  a:visited{color:rgb(0, 0, 0);}
+  a:active{color:rgb(0, 0, 0);}
+      </style>
+  
+    </body>
+</html>
