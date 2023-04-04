@@ -1,7 +1,7 @@
 // Function to render your items
-function renderItems(home) {
+function renderItems(collection) {
     // The `ul` where the items will be inserted
-    const collectionList = document.getElementById('home')
+    const collectionList = document.getElementById('collection')
    
     // Loop through each item in the collection array
     collection.forEach(function(item) {
@@ -11,8 +11,8 @@ function renderItems(home) {
       `<div class="item">
        <a href=" ">
        
-       < img src="${item.imageUrl}" />
-       <p>${item.balloon-color} (${item.time})</p >
+       < svg src="${item.imageUrl}" />
+       <p>(${item.time})</p >
      
        </a >
        </div>
@@ -25,11 +25,11 @@ function renderItems(home) {
    
    
    // Fetch gets your JSON file.
-   fetch('home.json')
+   fetch('collection.json')
     .then(function(response) {
      return response.json(); 
     })
-    .then(function(home){
+    .then(function(collection){
      // And passes the data to the function, above!
-     renderItems(home) // In reverse order
+     renderItems(collection) // In reverse order
     })
