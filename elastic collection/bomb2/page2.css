@@ -1,474 +1,448 @@
 @font-face {
-    font-family: 'Monospace';
-    src: url('Monospace.woff2') format('woff2'),
-        url('Monospace.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Monospace';
+  src: url('Monospace.woff2') format('woff2'),
+      url('Monospace.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 
 .responsive {
-    width: 60%;
-    height: auto;
-    position: relative;
-    top:60vw;
-  }
+  width: 60%;
+  height: auto;
+  position: relative;
+  top:60vw;
+}
 
-  button{
-    border: solid 1px;
-    font-family: 'Monospace';
-    font-size:0.8vw;
-    background-color:#88ff84;
+button{
+  border: solid 1px;
+  font-family: 'Monospace';
+  font-size:0.8vw;
+  background-color:#b7ff00;
 
-    cursor: pointer;
-    padding: 0.4vw;
-    position:relative;
-    top:58vw;
+  cursor: pointer;
+  padding: 0.4vw;
+  position:relative;
+  top:58vw;
 
 }
 button:hover{
-    background-color: #c2ffc0;
+  background-color: #eaffb5;
 }
 
-  .text{
-    text-align:center;
-    font-family: 'Monospace';
-    font-size: 1.3vw;
-    position: relative;
-    top:63vw;
-    
-  }
- 
-  .img1 img{
-    max-inline-size: 10%;
+.text{
+  text-align:center;
+  font-family: 'Monospace';
+  font-size: 1.3vw;
+  position: relative;
+  top:63vw;
+  
+}
+
+.img1 img{
+  max-inline-size: 10%;
+block-size: auto;
+position: absolute;
+bottom:50vh;
+left:2vh;
+}
+.img2 img{
+  max-inline-size: 10%;
   block-size: auto;
   position: absolute;
-  bottom:50vh;
-  left:2vh;
+  bottom:25vh;
+  left:83vw;
+}
+.img3 img{
+  max-inline-size: 10%;
+  block-size: auto;
+  position: absolute;
+  bottom:45vh;
+  left:85vw;
+}
+.img4 img{
+  max-inline-size: 10%;
+  block-size: auto;
+  position: absolute;
+  bottom:65vh;
+  left:20vw;
+}
+
+
+.title svg{
+  width:20vw;
+  position: absolute;
+  left:80vw;
+  top:110.8vw;
+}
+.back:hover{
+color:#b7ff00;
+}
+.back{
+  font-family: 'Monospace';
+  font-size:1.5vw;
+  position: absolute;
+  left:85.5vw;
+  top:115vw;
+}
+
+
+
+@media (max-width: 600px){
+.responsive {
+  width: 90%;
+  height: auto;
+    position: relative;
+    top:8vw;
+}
+.text{
+    text-align:center;
+    font-family: 'Monospace';
+    font-size: 15px;
+    position: relative;
+    top:13vw;
+    
+  }
+  button{
+    border: solid 1px;
+    border-color: black;
+    font-family: 'Monospace';
+    font-size:25px;
+    background-color:#b7ff00;
+    cursor: pointer;
+    padding: 5px;
+    position:relative;
+    top:3vw;
+
+}
+.img1 img{
+    max-inline-size: 15%;
+  block-size: auto;
+  position: absolute;
+  bottom:10vh;
+  left:4vh;
   }
   .img2 img{
-    max-inline-size: 10%;
+    max-inline-size: 15%;
     block-size: auto;
     position: absolute;
-    bottom:30vh;
-    left:20vw;
+    bottom:20vh;
+    left:80vw;
   }
   .img3 img{
     max-inline-size: 10%;
     block-size: auto;
     position: absolute;
-    bottom:45vh;
-    left:85vw;
+    bottom:30vh;
+    left:5vw;
   }
   .img4 img{
     max-inline-size: 10%;
     block-size: auto;
     position: absolute;
-    bottom:65vh;
-    left:20vw;
+    bottom:40vh;
+    left:83vw;
   }
-  .img5 img{
-    max-inline-size: 10%;
+  
+ 
+  .title svg{
+    width:70vw;
+    position: absolute;
+    left:18vw;
+    top:144vw;
+}
+.back{
+    font-family: 'Monospace';
+    font-size:6vw;
+    position: absolute;
+    left:34vw;
+    top:158vw;
+}
+a:link{color:rgb(0, 0, 0);}
+a:hover{color:rgb(0, 0, 0);}
+a:visited{color:rgb(0, 0, 0);}
+a:active{color:rgb(0, 0, 0);}
+
+}
+
+
+
+@media (min-width: 600px){
+.responsive {
+    position: relative;
+    top:40vw;
+}
+.text{
+    text-align:center;
+    font-family: 'Monospace';
+    font-size: 1.3vw;
+    position: relative;
+    top:43vw;
+    
+  }
+  button{
+    border: solid 1px;
+    font-family: 'Monospace';
+    font-size:0.8vw;
+    background-color:#b7ff00;
+    cursor: pointer;
+    padding: 0.4vw;
+    position:relative;
+    top:38vw;
+
+}
+.img1 img{
+  max-inline-size: 15%;
+block-size: auto;
+position: absolute;
+bottom:10vh;
+left:4vh;
+}
+.img2 img{
+  max-inline-size: 15%;
+  block-size: auto;
+  position: absolute;
+  bottom:20vh;
+  left:80vw;
+}
+.img3 img{
+  max-inline-size: 10%;
+  block-size: auto;
+  position: absolute;
+  bottom:30vh;
+  left:5vw;
+}
+.img4 img{
+  max-inline-size: 10%;
+  block-size: auto;
+  position: absolute;
+  bottom:40vh;
+  left:83vw;
+}
+  
+  .title svg{
+    width:31vw;
+    position: absolute;
+    left:71vw;
+    top:111vw;
+}
+.back{
+    font-family: 'Monospace';
+    font-size:1.5vw;
+    position: absolute;
+    left:78vw;
+    top:117vw;
+}
+
+}
+
+@media (min-width: 768px){
+.responsive {
+    position: relative;
+    top:2vw;
+}
+.text{
+    text-align:center;
+    font-family: 'Monospace';
+    font-size: 1.3vw;
+    position: relative;
+    top:4vw;
+    
+  }
+  button{
+    border: solid 1px;
+    font-family: 'Monospace';
+    font-size:0.8vw;
+    background-color:#b7ff00;
+    cursor: pointer;
+    padding: 0.4vw;
+    position:relative;
+    top:2vw;
+
+}
+.img1 img{
+    max-inline-size: 12%;
+  block-size: auto;
+  position: absolute;
+  bottom:65vh;
+  left:5vh;
+  }
+  .img2 img{
+    max-inline-size: 12%;
     block-size: auto;
     position: absolute;
-    bottom:32vh;
-    left:65vw;
+    bottom:50vh;
+    left:83vw;
   }
+  .img3 img{
+    max-inline-size: 7%;
+    block-size: auto;
+    position: absolute;
+    bottom:40vh;
+    left:8vw;
+  }
+  .img4 img{
+    max-inline-size: 8%;
+    block-size: auto;
+    position: absolute;
+    bottom:70vh;
+    left:86vw;
+  }
+  
 
   .title svg{
     width:20vw;
     position: absolute;
     left:80vw;
-    top:110.8vw;
-}
-.back:hover{
-  color: #88ff84;
+    top:51vw;
 }
 .back{
     font-family: 'Monospace';
     font-size:1.5vw;
     position: absolute;
     left:85.5vw;
-    top:115vw;
+    top:55vw;
 }
 
-
-
-@media (max-width: 600px){
-  .responsive {
-      position: relative;
-      top:40vw;
-  }
-  .text{
-      text-align:center;
-      font-family: 'Monospace';
-      font-size: 1.3vw;
-      position: relative;
-      top:43vw;
-      
-    }
-    button{
-      border: solid 1px;
-      font-family: 'Monospace';
-      font-size:0.8vw;
-      background-color:#88ff84;
-      cursor: pointer;
-      padding: 0.4vw;
-      position:relative;
-      top:38vw;
-  
-  }
-  .img1 img{
-      max-inline-size: 10%;
-    block-size: auto;
-    position: absolute;
-    bottom:50vh;
-    left:4vh;
-    }
-    .img2 img{
-      max-inline-size: 8%;
-      block-size: auto;
-      position: absolute;
-      bottom:30vh;
-      left:75vw;
-    }
-    .img3 img{
-      max-inline-size: 10%;
-      block-size: auto;
-      position: absolute;
-      bottom:50vh;
-      left:85vw;
-    }
-    .img4 img{
-      max-inline-size: 10%;
-      block-size: auto;
-      position: absolute;
-      bottom:30vh;
-      left:9vw;
-    }
-    .img5 img{
-      max-inline-size: 6%;
-      block-size: auto;
-      position: absolute;
-      bottom:73vh;
-      left:25vw;
-    }
-    .title svg{
-      width:31vw;
-      position: absolute;
-      left:71vw;
-      top:111vw;
-  }
-  .back{
-      font-family: 'Monospace';
-      font-size:1.5vw;
-      position: absolute;
-      left:78vw;
-      top:117vw;
-  }
-  
-}
-
-
-
-@media (min-width: 600px){
-  .responsive {
-      position: relative;
-      top:40vw;
-  }
-  .text{
-      text-align:center;
-      font-family: 'Monospace';
-      font-size: 1.3vw;
-      position: relative;
-      top:43vw;
-      
-    }
-    button{
-      border: solid 1px;
-      font-family: 'Monospace';
-      font-size:0.8vw;
-      background-color:#88ff84;
-      cursor: pointer;
-      padding: 0.4vw;
-      position:relative;
-      top:38vw;
-  
-  }
-  .img1 img{
-      max-inline-size: 10%;
-    block-size: auto;
-    position: absolute;
-    bottom:50vh;
-    left:4vh;
-    }
-    .img2 img{
-      max-inline-size: 8%;
-      block-size: auto;
-      position: absolute;
-      bottom:30vh;
-      left:75vw;
-    }
-    .img3 img{
-      max-inline-size: 10%;
-      block-size: auto;
-      position: absolute;
-      bottom:50vh;
-      left:85vw;
-    }
-    .img4 img{
-      max-inline-size: 10%;
-      block-size: auto;
-      position: absolute;
-      bottom:30vh;
-      left:9vw;
-    }
-    .img5 img{
-      max-inline-size: 6%;
-      block-size: auto;
-      position: absolute;
-      bottom:73vh;
-      left:25vw;
-    }
-    .title svg{
-      width:31vw;
-      position: absolute;
-      left:71vw;
-      top:111vw;
-  }
-  .back{
-      font-family: 'Monospace';
-      font-size:1.5vw;
-      position: absolute;
-      left:78vw;
-      top:117vw;
-  }
-  
-}
-
-@media (min-width: 768px){
-  .responsive {
-      position: relative;
-      top:6vw;
-  }
-  .text{
-      text-align:center;
-      font-family: 'Monospace';
-      font-size: 1.3vw;
-      position: relative;
-      top:8vw;
-      
-    }
-    button{
-      border: solid 1px;
-      font-family: 'Monospace';
-      font-size:0.8vw;
-      background-color:#88ff84;
-      cursor: pointer;
-      padding: 0.4vw;
-      position:relative;
-      top:5vw;
-  
-  }
-  .img1 img{
-      max-inline-size: 10%;
-    block-size: auto;
-    position: absolute;
-    bottom:55vh;
-    left:5vh;
-    }
-    .img2 img{
-      max-inline-size: 8%;
-      block-size: auto;
-      position: absolute;
-      bottom:30vh;
-      left:65vw;
-    }
-    .img3 img{
-      max-inline-size: 10%;
-      block-size: auto;
-      position: absolute;
-      bottom:45vh;
-      left:85vw;
-    }
-    .img4 img{
-      max-inline-size: 10%;
-      block-size: auto;
-      position: absolute;
-      bottom:30vh;
-      left:7vw;
-    }
-    .img5 img{
-      max-inline-size: 6%;
-      block-size: auto;
-      position: absolute;
-      bottom:87vh;
-      left:20vw;
-    }
-    .title svg{
-      width:20vw;
-      position: absolute;
-      left:80vw;
-      top:52vw;
-  }
-  .back{
-      font-family: 'Monospace';
-      font-size:1.5vw;
-      position: absolute;
-      left:85.5vw;
-      top:56vw;
-  }
-  
 }
 @media (min-width: 992px){
-  .responsive {
-      position: relative;
-      top:3vw;
+.responsive {
+    position: relative;
+    top:1vw;
+}
+.text{
+    text-align:center;
+    font-family: 'Monospace';
+    font-size: 1.3vw;
+    position: relative;
+    top:3vw;
+    
   }
-  .text{
-      text-align:center;
-      font-family: 'Monospace';
-      font-size: 1.3vw;
-      position: relative;
-      top:6vw;
-      
-    }
-    button{
-      border: solid 1px;
-      font-family: 'Monospace';
-      font-size:0.8vw;
-      background-color:#88ff84;
-      cursor: pointer;
-      padding: 0.4vw;
-      position:relative;
-      top:3vw;
-  
+  button{
+    border: solid 1px;
+    font-family: 'Monospace';
+    font-size:0.8vw;
+    background-color:#b7ff00;
+    cursor: pointer;
+    padding: 0.4vw;
+    position:relative;
+    top:1vw;
+
+}
+.img1 img{
+    max-inline-size: 10%;
+  block-size: auto;
+  position: absolute;
+  bottom:55vh;
+  left:7vh;
   }
-  .img1 img{
-      max-inline-size: 10%;
+  .img3 img{
+    max-inline-size: 8%;
     block-size: auto;
     position: absolute;
-    bottom:45vh;
-    left:5vh;
-    }
-    .img2 img{
-      max-inline-size: 8%;
-      block-size: auto;
-      position: absolute;
-      bottom:10vh;
-      left:65vw;
-    }
-    .img3 img{
-      max-inline-size: 10%;
-      block-size: auto;
-      position: absolute;
-      bottom:45vh;
-      left:85vw;
-    }
-    .img4 img{
-      max-inline-size: 10%;
-      block-size: auto;
-      position: absolute;
-      bottom:10vh;
-      left:17vw;
-    }
-    .img5 img{
-      max-inline-size: 6%;
-      block-size: auto;
-      position: absolute;
-      bottom:87vh;
-      left:25vw;
-    }
-    .title svg{
-      width:20vw;
-      position: absolute;
-      left:80vw;
-      top:50vw;
+    bottom:60vh;
+    left:85vw;
   }
-  .back{
-      font-family: 'Monospace';
-      font-size:1.5vw;
-      position: absolute;
-      left:85.5vw;
-      top:54vw;
+  .img2 img{
+    max-inline-size: 8%;
+    block-size: auto;
+    position: absolute;
+    bottom:30vh;
+    left:10vw;
   }
-  
+  .img4 img{
+    max-inline-size: 10%;
+    block-size: auto;
+    position: absolute;
+    bottom:40vh;
+    left:83vw;
+  }
+ 
+  .title svg{
+    width:20vw;
+    position: absolute;
+    left:80vw;
+    top:46vw;
+}
+.back{
+    font-family: 'Monospace';
+    font-size:1.5vw;
+    position: absolute;
+    left:85.5vw;
+    top:50vw;
+}
+
 }
 
 @media (min-width: 1200px){
-  .responsive {
-      position: relative;
-      top:1vw;
+.responsive {
+    position: relative;
+    top:1vw;
+}
+.text{
+    text-align:center;
+    font-family: 'Monospace';
+    font-size: 1.3vw;
+    position: relative;
+    top:3vw;
+    
   }
-  .text{
-      text-align:center;
-      font-family: 'Monospace';
-      font-size: 1.3vw;
-      position: relative;
-      top:3vw;
-      
-    }
-    button{
-      border: solid 1px;
-      font-family: 'Monospace';
-      font-size:0.8vw;
-      background-color:#88ff84;
-      cursor: pointer;
-      padding: 0.4vw;
-      position:relative;
-      top:1vw;
-  
+  button{
+    border: solid 1px;
+    font-family: 'Monospace';
+    font-size:0.8vw;
+    background-color:#b7ff00;
+    cursor: pointer;
+    padding: 0.4vw;
+    position:relative;
+    top:1vw;
+
+}
+.img1 img{
+    max-inline-size: 10%;
+  block-size: auto;
+  position: absolute;
+  bottom:35vh;
+  left:9vh;
   }
-  .img1 img{
-      max-inline-size: 10%;
+  .img3 img{
+    max-inline-size: 8%;
     block-size: auto;
     position: absolute;
-    bottom:55vh;
-    left:6vh;
-    }
-    .img2 img{
-      max-inline-size: 8%;
-      block-size: auto;
-      position: absolute;
-      bottom:5vh;
-      left:65vw;
-    }
-    .img3 img{
-      max-inline-size: 10%;
-      block-size: auto;
-      position: absolute;
-      bottom:35vh;
-      left:85vw;
-    }
-    .img4 img{
-      max-inline-size: 10%;
-      block-size: auto;
-      position: absolute;
-      bottom:23vh;
-      left:7vw;
-    }
-    .img5 img{
-      max-inline-size: 6%;
-      block-size: auto;
-      position: absolute;
-      bottom:10vh;
-      left:25vw;
-    }
-    .title svg{
-      width:20vw;
-      position: absolute;
-      left:80vw;
-      top:44vw;
+    bottom:25vh;
+    left:87vw;
   }
-  .back{
-      font-family: 'Monospace';
-      font-size:1.5vw;
-      position: absolute;
-      left:85.5vw;
-      top:48vw;
+  .img2 img{
+    max-inline-size: 8%;
+    block-size: auto;
+    position: absolute;
+    bottom:8vh;
+    left:10vw;
+  }
+  .img4 img{
+    max-inline-size: 9%;
+    block-size: auto;
+    position: absolute;
+    bottom:68vh;
+    left:83vw;
   }
   
+
+  .title svg{
+    width:20vw;
+    position: absolute;
+    left:80vw;
+    top:44vw;
+}
+.back{
+    font-family: 'Monospace';
+    font-size:1.5vw;
+    position: absolute;
+    left:85.5vw;
+    top:48vw;
+}
+
 }
 
   
