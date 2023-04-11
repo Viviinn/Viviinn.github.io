@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Monospace';
+    src: url('Monospace.woff2') format('woff2'),
+        url('Monospace.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+h3{
+    padding: 9vw;
+    font-family: 'Monospace';
+ 
+    
+}
+img{
+    
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  position: relative;
+  bottom:7vw;
+  transition: width 2s;
+}
+img:hover{
+    width: 50%;
+}
+
