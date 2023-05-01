@@ -17,40 +17,40 @@ html{
 
 .flex-container > div {
   
-  width: 10vh;
-  margin: -1vh;
+  width: 7vh;
+  margin:0vh;
   text-align: center;
   line-height:1vh;
-  font-size: 2vh;
+  font-size: 0.5vh;
 }
 .one p{
     font-family: 'ITC Gothic';
     color: white;
-    width: 30vh;
-    position: fixed;
-    top:5vh;
     
+    position: fixed;
+    top:5.5vh;
+    left:7.5vh;
     transform: rotate(15deg);
 }
 .two img{
-    width:12vh;
+    width:9vh;
     position: relative;
-    left:-0.5vh;
+    left:-0.7vh;
 
 }
 .two p{
     font-family: 'ITC Gothic';
     color: white;
-    width: 30vh;
+    
     position: fixed;
-    top:14.5vh;
-    left:-1.4vh;
+    top:14vh;
+    left:7.5vh;
     transform: rotate(15deg);
 }
 .three img{
-    width:14vh;
+    width:11vh;
     position: relative;
-    left:-2vh;
+    left:-2.1vh;
     top:-2.6vh;
 
 }
@@ -58,110 +58,110 @@ html{
 .three p{
     font-family: 'ITC Gothic';
     color: white;
-    width: 30vh;
+    
     position: fixed;
-    top:24.2vh;
-    left:-3vh;
+    top:22vh;
+    left:7.5vh;
     transform: rotate(15deg);
 }
 
 .four img{
-    width:20vh;
+    width:17vh;
     position: relative;
     left:-5vh;
-    top:-8.6vh;
+    top:-9vh;
 
 }
 .four p{
     font-family: 'ITC Gothic';
     color: white;
-    width: 30vh;
+    
     position: fixed;
-    top:35.5vh;
-    left:2vh;
+    top:31.9vh;
+    left:7.5vh;
     transform: rotate(15deg);
 }
 
 .five img{
-    width:25vh;
+    width:20vh;
     position: relative;
-    left:-8vh;
-    top:-21.5vh;
+    left:-7vh;
+    top:-21vh;
 
 }
 .five p{
     font-family: 'ITC Gothic';
     color: white;
-    width: 30vh;
+    
     position: fixed;
-    top:45.4vh;
-    left:0.5vh;
+    top:40.4vh;
+    left:7.5vh;
     transform: rotate(15deg);
 }
 .six img{
-    width:29vh;
+    width:23vh;
     position: relative;
-    left:-10vh;
-    top:-38vh;
+    left:-8.4vh;
+    top:-35vh;
 
 }
 .six p{
     font-family: 'ITC Gothic';
     color: white;
-    width: 30vh;
+    
     position: fixed;
-    top:55vh;
-    left:-4.1vh;
+    top:48.5vh;
+    left:7.5vh;
     transform: rotate(15deg);
 }
 
 .seven img{
-    width:31vh;
+    width:26vh;
     position: relative;
-    left:-11vh;
-    top:-59vh;
+    left:-9.8vh;
+    top:-53vh;
 
 }
 .seven p{
     font-family: 'ITC Gothic';
     color: white;
-    width: 30vh;
+   
     position: fixed;
-    top:67vh;
-    left:4.4vh;
+    top:59.5vh;
+    left:7.5vh;
     transform: rotate(15deg);
 }
 
 .eight img{
-    width:21vh;
+    width:17vh;
     position: relative;
-    left:-5.6vh;
-    top:-76vh;
+    left:-5vh;
+    top:-67vh;
 
 }
 .eight p{
     font-family: 'ITC Gothic';
     color: white;
-    width: 30vh;
+    
     position: fixed;
-    top:75vh;
-    left:-2.8vh;
+    top:67vh;
+    left:7.5vh;
     transform: rotate(15deg);
 }
 
 .nine img{
-    width:19vh;
+    width:15vh;
     position: relative;
-    left:-5.6vh;
-    top:-87vh;
+    left:-4.6vh;
+    top:-75.3vh;
 
 }
 .nine p{
     font-family: 'ITC Gothic';
     color: white;
-    width: 30vh;
+    
     position: fixed;
-    top:85vh;
-    left:-0.2vh;
+    top:77.6vh;
+    left:7.5vh;
     transform: rotate(15deg);
 }
