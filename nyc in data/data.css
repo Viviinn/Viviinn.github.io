@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'ITC Gothic';
+    src: url('SerifGothic-Light.woff2') format('woff2'),
+        url('SerifGothic-Light.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+html{
+    background-color: black
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.flex-container > div {
+  
+  width: 10vh;
+  margin: -1vh;
+  text-align: center;
+  line-height:1vh;
+  font-size: 2vh;
+}
+.one p{
+    font-family: 'ITC Gothic';
+    color: white;
+    width: 30vh;
+    position: fixed;
+    top:5vh;
+    
+    transform: rotate(15deg);
+}
+.two img{
+    width:12vh;
+    position: relative;
+    left:-0.5vh;
+
+}
+.two p{
+    font-family: 'ITC Gothic';
+    color: white;
+    width: 30vh;
+    position: fixed;
+    top:14.5vh;
+    left:-1.4vh;
+    transform: rotate(15deg);
+}
+.three img{
+    width:14vh;
+    position: relative;
+    left:-2vh;
+    top:-2.6vh;
+
+}
+
+.three p{
+    font-family: 'ITC Gothic';
+    color: white;
+    width: 30vh;
+    position: fixed;
+    top:24.2vh;
+    left:-3vh;
+    transform: rotate(15deg);
+}
+
+.four img{
+    width:20vh;
+    position: relative;
+    left:-5vh;
+    top:-8.6vh;
+
+}
+.four p{
+    font-family: 'ITC Gothic';
+    color: white;
+    width: 30vh;
+    position: fixed;
+    top:35.5vh;
+    left:2vh;
+    transform: rotate(15deg);
+}
+
+.five img{
+    width:25vh;
+    position: relative;
+    left:-8vh;
+    top:-21.5vh;
+
+}
+.five p{
+    font-family: 'ITC Gothic';
+    color: white;
+    width: 30vh;
+    position: fixed;
+    top:45.4vh;
+    left:0.5vh;
+    transform: rotate(15deg);
+}
+.six img{
+    width:29vh;
+    position: relative;
+    left:-10vh;
+    top:-38vh;
+
+}
+.six p{
+    font-family: 'ITC Gothic';
+    color: white;
+    width: 30vh;
+    position: fixed;
+    top:55vh;
+    left:-4.1vh;
+    transform: rotate(15deg);
+}
+
+.seven img{
+    width:31vh;
+    position: relative;
+    left:-11vh;
+    top:-59vh;
+
+}
+.seven p{
+    font-family: 'ITC Gothic';
+    color: white;
+    width: 30vh;
+    position: fixed;
+    top:67vh;
+    left:4.4vh;
+    transform: rotate(15deg);
+}
+
+.eight img{
+    width:21vh;
+    position: relative;
+    left:-5.6vh;
+    top:-76vh;
+
+}
+.eight p{
+    font-family: 'ITC Gothic';
+    color: white;
+    width: 30vh;
+    position: fixed;
+    top:75vh;
+    left:-2.8vh;
+    transform: rotate(15deg);
+}
+
+.nine img{
+    width:19vh;
+    position: relative;
+    left:-5.6vh;
+    top:-87vh;
+
+}
+.nine p{
+    font-family: 'ITC Gothic';
+    color: white;
+    width: 30vh;
+    position: fixed;
+    top:85vh;
+    left:-0.2vh;
+    transform: rotate(15deg);
+}
