@@ -1,0 +1,76 @@
+html{
+    background-color: rgb(201, 229, 213);
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-Book.woff2') format('woff2'),
+        url('FuturaStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+h1{
+    font-family: 'Futura Std';
+    font-size: 7vw;
+    padding-top: 4vw;
+    
+}
+img{
+    max-inline-size: 85%;
+    display: block;
+    margin: 0 auto;
+    z-index: -7;
+}
+video{
+    max-inline-size: 82%;
+    display: block;
+    margin: 0 auto; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+h2{
+    color:white;
+    position:fixed;
+    top:-0.3vh;
+    z-index: 2;
+    
+  }
+
+.box {
+    position:fixed;
+    top:-1vh;
+    left: -1vh;
+    width: 1500vw;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    
+  }
+
+  .name{
+    
+    float: right;
+  }
+
+
+  .mock img {
+    max-width: 40%;
+    float: left;
+    padding-left: 5vw;
+  }
+
+  .up{
+    float: right;
+    max-width: 80%;
+    padding-top: 8vw;
+    padding-bottom: 5vw;
+  }
+
+  .text {
+    position: relative;
+    left:-8.2vw;
+    width: 115vw;
+    float:center;
+  }
+ 
