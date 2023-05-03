@@ -214,12 +214,18 @@ a {
     bottom:153vh;
     left:22.4vw
 }
+.data1:hover{
+    opacity: 0.5;
+}
 
 .data2{
     width:8vw;
     position:relative;
     bottom:153vh;
     left:10.5vw
+}
+.data2:hover{
+    opacity: 0.5;
 }
 .data3{
     width:6vw;
@@ -239,9 +245,44 @@ a {
     bottom:142vh;
     left:-2vw
 }
+.data5:hover{
+    opacity: 0.5;
+}
 
 .container {
     display: flex;
     flex-wrap: wrap;
     height: 10vh;
 }
+
+.hover-img {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  .container01:hover .hover-img {
+    display: block;
+  }
+
+  .hover-img1 {
+    display: none;
+    width: 40vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  .container02:hover .hover-img1 {
+    display: block;
+  }
+  
+  
+  
+  
+  
