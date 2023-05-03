@@ -6,6 +6,15 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('EuclidCircularA-Regular.woff2') format('woff2'),
+        url('EuclidCircularA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 html{
     background-color: rgb(0, 0, 0);
     z-index: -1;
@@ -265,6 +274,7 @@ a {
 }
 
 .hover-img {
+    font-family: 'Euclid Circular A';
     display: none;
     position: absolute;
     top: 50%;
@@ -278,6 +288,7 @@ a {
   }
 
   .hover-img1 {
+    font-family: 'Euclid Circular A';
     display: none;
     width: 40vw;
     position: absolute;
@@ -292,6 +303,7 @@ a {
   }
 
   .hover-img3 {
+    font-family: 'Euclid Circular A';
     display: none;
     width: 40vw;
     position: absolute;
@@ -306,6 +318,7 @@ a {
   }
 
   .hover-img4 {
+    font-family: 'Euclid Circular A';
     display: none;
     width: 42vw;
     position: absolute;
@@ -320,8 +333,9 @@ a {
   }
 
   .hover-img5 {
+    font-family: 'Euclid Circular A';
     display: none;
-    width: 42vw;
+    width: 40vw;
     position: absolute;
     top: 50%;
     left: 50%;
