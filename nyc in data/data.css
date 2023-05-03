@@ -233,17 +233,26 @@ a {
     bottom:146vh;
     left:6vw
 }
+
+.data3:hover{
+    opacity: 0.5;
+}
+
 .data4{
     width:4.5vw;
     position:relative;
     bottom:146vh;
     left:3.5vw
 }
+.data4:hover{
+    opacity: 0.5;
+}
+
 .data5{
     width:3vw;
     position:relative;
     bottom:142vh;
-    left:-2vw
+    left:-9vw
 }
 .data5:hover{
     opacity: 0.5;
@@ -281,6 +290,50 @@ a {
   .container02:hover .hover-img1 {
     display: block;
   }
+
+  .hover-img3 {
+    display: none;
+    width: 40vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  .container02:hover .hover-img3 {
+    display: block;
+  }
+
+  .hover-img4 {
+    display: none;
+    width: 42vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  .container02:hover .hover-img4 {
+    display: block;
+  }
+
+  .hover-img5 {
+    display: none;
+    width: 42vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  .container02:hover .hover-img5 {
+    display: block;
+  }
+  
+  
   
   
   
