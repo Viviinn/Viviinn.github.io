@@ -1,0 +1,93 @@
+[
+    {
+      "year": "2020",
+      "leading_cause": "Alzheimer's Disease (G30)",
+      "sex": "Male",
+      "race_ethnicity": "Other Race/ Ethnicity",
+      "deaths": "1"
+    },
+    {
+      "year": "2019",
+      "leading_cause": "Viral Hepatitis (B15-B19)",
+      "sex": "Male",
+      "race_ethnicity": "Other Race/ Ethnicity",
+      "deaths": "1"
+    },
+    {
+      "year": "2018",
+      "leading_cause": "Septicemia (A40-A41)",
+      "sex": "Male",
+      "race_ethnicity": "Other Race/ Ethnicity",
+      "deaths": "1"
+    },
+    {
+      "year": "2017",
+      "leading_cause": "Mental and Behavioral Disorders due to Use of Alcohol (F10)",
+      "sex": "Male",
+      "race_ethnicity": "Other Race/ Ethnicity",
+      "deaths": "1"
+    },
+    {
+      "year": "2016",
+      "leading_cause": "Cerebrovascular Disease (Stroke: I60-I69)",
+      "sex": "Male",
+      "race_ethnicity": "Other Race/ Ethnicity",
+      "deaths": "1"
+    },
+    {
+      "year": "2015",
+      "leading_cause": "Essential Hypertension and Renal Diseases (I10, I12)",
+      "sex": "Male",
+      "race_ethnicity": "Other Race/ Ethnicity",
+      "deaths": "1"
+    },
+    {
+      "year": "2014",
+      "leading_cause": "Accidents Except Drug Poisoning (V01-X39, X43, X45-X59, Y85-Y86)",
+      "sex": "Male",
+      "race_ethnicity": "Other Race/ Ethnicity",
+      "deaths": "1"
+    },
+    {
+      "year": "2013",
+      "leading_cause": "Human Immunodeficiency Virus Disease (HIV: B20-B24)",
+      "sex": "Male",
+      "race_ethnicity": "Other Race/ Ethnicity",
+      "deaths": "1"
+    },
+    {
+      "year": "2012",
+      "leading_cause": "All Other Causes",
+      "sex": "Male",
+      "race_ethnicity": "Other Race/ Ethnicity",
+      "deaths": "10"
+    },
+    {
+      "year": "2011",
+      "leading_cause": "Diseases of Heart (I00-I09, I11, I13, I20-I51)",
+      "sex": "Male",
+      "race_ethnicity": "Not Stated/Unknown",
+      "deaths": "259",
+      "death_rate": "318.5496765",
+      "age_adjusted_death_rate": "549.6593655"
+    },
+    {
+      "year": "2010",
+      "leading_cause": "Malignant Neoplasms (Cancer: C00-C97)",
+      "sex": "Male",
+      "race_ethnicity": "Not Stated/Unknown",
+      "deaths": "107",
+      "death_rate": "131.6016038",
+      "age_adjusted_death_rate": "208.5029439"
+    },
+    {
+      "year": "2009",
+      "leading_cause": "Diabetes Mellitus (E10-E14)",
+      "sex": "Male",
+      "race_ethnicity": "Not Stated/Unknown",
+      "deaths": "43",
+      "death_rate": "52.88662583",
+      "age_adjusted_death_rate": "83.74472752"
+    }
+]
+    
