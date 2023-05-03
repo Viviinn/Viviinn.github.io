@@ -333,6 +333,223 @@ a {
     display: block;
   }
   
+  .data6{
+    width:6vw;
+    position:relative;
+    bottom:150vh;
+    left:17vw
+}
+.data6:hover{
+    opacity: 0.5;
+}
+.hover-img6 {
+    display: none;
+    width: 36vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img6 {
+    display: block;
+  }
+  
+  
+.data7{
+    width:4.5vw;
+    position:relative;
+    bottom:146vh;
+    left:13vw
+}
+.data7:hover{
+    opacity: 0.5;
+}
+.hover-img7 {
+    display: none;
+    width: 36vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img7 {
+    display: block;
+  }
+  
+
+.data8{
+    width:3.5vw;
+    position:relative;
+    bottom:146vh;
+    left:11vw
+}
+.data8:hover{
+    opacity: 0.5;
+}
+.hover-img8 {
+    display: none;
+    width: 40vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img8 {
+    display: block;
+  }
+
+.data9{
+    width:2.5vw;
+    position:relative;
+    bottom:150vh;
+    left:7vw
+}
+.data9:hover{
+    opacity: 0.5;
+}
+.hover-img9 {
+    display: none;
+    width: 35vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img9 {
+    display: block;
+  }
+
+
+.data10{
+    width:2vw;
+    position:relative;
+    bottom:148vh;
+    left:-1vw
+}
+.data10:hover{
+    opacity: 0.5;
+}
+.hover-img10 {
+    display: none;
+    width: 35vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img10 {
+    display: block;
+  }
+  .data11{
+    width:6.5vw;
+    position:relative;
+    bottom:149vh;
+    left:23vw
+}
+.data11:hover{
+    opacity: 0.5;
+}
+.hover-img11 {
+    display: none;
+    width: 35vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img11 {
+    display: block;
+  }
+.data12{
+    width:5.3vw;
+    position:relative;
+    bottom:151vh;
+    left:19vw
+}
+.data12:hover{
+    opacity: 0.5;
+}
+.hover-img12 {
+    display: none;
+    width: 35vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img12 {
+    display: block;
+  }
+.data13{
+    width:4.3vw;
+    position:relative;
+    bottom:147vh;
+    left:15vw
+}
+.data13:hover{
+    opacity: 0.5;
+}
+.hover-img13 {
+    display: none;
+    width: 39vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img13 {
+    display: block;
+  }
+.data14{
+    width:3.3vw;
+    position:relative;
+    bottom:153vh;
+    left:12vw
+}
+.data14:hover{
+    opacity: 0.5;
+}
+.hover-img14 {
+    display: none;
+    width: 33vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img14 {
+    display: block;
+  }
+.data15{
+    width:2.3vw;
+    position:relative;
+    bottom:144vh;
+    left:12vw
+}
+.data15:hover{
+    opacity: 0.5;
+}
+.hover-img15 {
+    display: none;
+    width: 33vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img15 {
+    display: block;
+  }
   
   
   
