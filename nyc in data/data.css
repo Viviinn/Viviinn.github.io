@@ -894,30 +894,105 @@ a {
     bottom:92vh;
     left:-27vw;
 }
+.data31:hover{
+    opacity: 0.5;
+}
+.hover-img31 {
+    display: none;
+    width: 34vw;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img31{
+    display: block;
+  }
 .data32{
     width:6.5vw;
     position:relative;
     bottom:88vh;
     left:-38vw;
 }
+.data32:hover{
+    opacity: 0.5;
+}
+.hover-img32 {
+    display: none;
+    width: 34vw;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img32{
+    display: block;
+  }
 .data33{
     width:4.7vw;
     position:relative;
     bottom:85vh;
     left:-41vw;
 }
+.data33:hover{
+    opacity: 0.5;
+}
+.hover-img33 {
+    display: none;
+    width: 34vw;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img33{
+    display: block;
+  }
 .data34{
     width:3.5vw;
     position:relative;
     bottom:85vh;
     left:-42vw;
 }
+.data34:hover{
+    opacity: 0.5;
+}
+.hover-img34 {
+    display: none;
+    width: 34vw;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img34{
+    display: block;
+  }
 .data35{
     width:2.3vw;
     position:relative;
     bottom:93vh;
     left:-52vw;
 }
+.data35:hover{
+    opacity: 0.5;
+}
+.hover-img35 {
+    display: none;
+    width: 36vw;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img35{
+    display: block;
+  }
 .data36{
     width:8vw;
     position:relative;
@@ -1012,13 +1087,13 @@ a {
     width:8vw;
     position:relative;
     bottom:65vh;
-    left:-5vw;
+    left:-4vw;
 }
 .data52{
     width:6vw;
     position:relative;
     bottom:65vh;
-    left:-15vw;
+    left:-13vw;
 }
 .data53{
     width:6vw;
@@ -1039,7 +1114,7 @@ a {
     left:-30vw;
 }
 .data56{
-    width:11vw;
+    width:12vw;
     position:relative;
     bottom:65vh;
     left:-7vw;
@@ -1047,6 +1122,24 @@ a {
 .data57{
     width:7vw;
     position:relative;
-    bottom:65vh;
-    left:75vw;
+    bottom:84vh;
+    left:76vw;
+}
+.data58{
+    width:6vw;
+    position:relative;
+    bottom:76vh;
+    left:73vw;
+}
+.data59{
+    width:4.6vw;
+    position:relative;
+    bottom:74vh;
+    left:64vw;
+}
+.data60{
+    width:3.2vw;
+    position:relative;
+    bottom:84vh;
+    left:67vw;
 }
