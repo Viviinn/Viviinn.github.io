@@ -153,7 +153,7 @@ html{
     color: white;
    
     position: fixed;
-    top:59vh;
+    top:57.8vh;
     left:7.5vh;
     transform: rotate(15deg);
 }
@@ -170,7 +170,7 @@ html{
     color: white;
     
     position: fixed;
-    top:67vh;
+    top:68vh;
     left:7.5vh;
     transform: rotate(15deg);
 }
@@ -187,7 +187,7 @@ html{
     color: white;
     
     position: fixed;
-    top:76.4vh;
+    top:77vh;
     left:7vh;
     transform: rotate(15deg);
 }
@@ -567,9 +567,237 @@ a {
   .container02:hover .hover-img15 {
     display: block;
   }
+  .data16{
+    width:8vw;
+    position:relative;
+    bottom:113vh;
+    left:-50vw
+}
+.data16:hover{
+    opacity: 0.5;
+}
+.hover-img16 {
+    display: none;
+    width: 33vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img16 {
+    display: block;
+  }
+.data17{
+    width:6.5vw;
+    position:relative;
+    bottom:116vh;
+    left:-58vw
+}
+.data17:hover{
+    opacity: 0.5;
+}
+.hover-img17 {
+    display: none;
+    width: 35vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img17 {
+    display: block;
+  }
+.data18{
+    width:5vw;
+    position:relative;
+    bottom:110vh;
+    left:-65vw
+}
+.data18:hover{
+    opacity: 0.5;
+}
+.hover-img18 {
+    display: none;
+    width: 38vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img18 {
+    display: block;
+  }
+
+.data19{
+    width:3.6vw;
+    position:relative;
+    bottom:119vh;
+    left:-71vw
+}
+.data19:hover{
+    opacity: 0.5;
+}
+.hover-img19 {
+    display: none;
+    width: 32vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img19 {
+    display: block;
+  }
+.data20{
+    width:2.5vw;
+    position:relative;
+    bottom:119vh;
+    left:32vw
+}
   
+.data20:hover{
+    opacity: 0.5;
+}
+.hover-img20 {
+    display: none;
+    width: 32vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img20 {
+    display: block;
+  }
   
-  
-  
+  .data21{
+    width:8vw;
+    position:relative;
+    bottom:131vh;
+    left:47vw
+}
+.data21:hover{
+    opacity: 0.5;
+}
+.hover-img21 {
+    display: none;
+    width: 32vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img21 {
+    display: block;
+  }
+.data22{
+    width:6vw;
+    position:relative;
+    bottom:126vh;
+    left:43vw
+}
+.data22:hover{
+    opacity: 0.5;
+}
+.hover-img22 {
+    display: none;
+    width: 32vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img22 {
+    display: block;
+  }
+
+.data23{
+    width:5.2vw;
+    position:relative;
+    bottom:129vh;
+    left:38vw
+}
+.data23:hover{
+    opacity: 0.5;
+}
+.hover-img23 {
+    display: none;
+    width: 36vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img23 {
+    display: block;
+  }
+.data24{
+    width:4vw;
+    position:relative;
+    bottom:126vh;
+    left:35vw
+}
+.data24:hover{
+    opacity: 0.5;
+}
+.hover-img24 {
+    display: none;
+    width: 32vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img24 {
+    display: block;
+  }
+.data25{
+    width:2.5vw;
+    position:relative;
+    bottom:126vh;
+    left:23vw
+}
+.data25:hover{
+    opacity: 0.5;
+}
+.hover-img25 {
+    display: none;
+    width: 32vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img25 {
+    display: block;
+  }
+  .data26{
+    width:8vw;
+    position:relative;
+    bottom:131vh;
+    left:48vw
+}
+.data27{
+    width:6.5vw;
+    position:relative;
+    bottom:127vh;
+    left:42vw
+}
+.data28{
+    width:4.5vw;
+    position:relative;
+    bottom:127vh;
+    left:42vw
+}
   
   
