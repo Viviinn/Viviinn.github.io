@@ -170,7 +170,7 @@ html{
     color: white;
     
     position: fixed;
-    top:68vh;
+    top:69vh;
     left:7.5vh;
     transform: rotate(15deg);
 }
@@ -187,7 +187,7 @@ html{
     color: white;
     
     position: fixed;
-    top:77vh;
+    top:78vh;
     left:7vh;
     transform: rotate(15deg);
 }
@@ -1314,57 +1314,207 @@ a {
     bottom:65vh;
     left:-4vw;
 }
+.data51:hover{
+    opacity: 0.5;
+}
+.hover-img51 {
+    display: none;
+    width: 34vw;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img51{
+    display: block;
+  }
 .data52{
     width:6vw;
     position:relative;
     bottom:65vh;
     left:-13vw;
 }
+.data52:hover{
+    opacity: 0.5;
+}
+.hover-img52 {
+    display: none;
+    width: 34vw;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img52{
+    display: block;
+  }
 .data53{
     width:6vw;
     position:relative;
     bottom:59vh;
     left:-16vw;
 }
+.data53:hover{
+    opacity: 0.5;
+}
+.hover-img53 {
+    display: none;
+    width: 44vw;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img53{
+    display: block;
+  }
 .data54{
     width:4vw;
     position:relative;
     bottom:59vh;
     left:-18vw;
 }
+.data54:hover{
+    opacity: 0.5;
+}
+.hover-img54 {
+    display: none;
+    width: 37vw;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img54{
+    display: block;
+  }
 .data55{
     width:3vw;
     position:relative;
     bottom:55vh;
     left:-30vw;
 }
+.data55:hover{
+    opacity: 0.5;
+}
+.hover-img55 {
+    display: none;
+    width: 37vw;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img55{
+    display: block;
+  }
 .data56{
     width:12vw;
     position:relative;
     bottom:65vh;
     left:-7vw;
 }
+.data56:hover{
+    opacity: 0.5;
+}
+.hover-img56 {
+    display: none;
+    width: 41vw;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img56{
+    display: block;
+  }
 .data57{
     width:7vw;
     position:relative;
     bottom:84vh;
     left:76vw;
 }
+.data57:hover{
+    opacity: 0.5;
+}
+.hover-img57 {
+    display: none;
+    width: 33vw;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img57{
+    display: block;
+  }
 .data58{
     width:6vw;
     position:relative;
     bottom:76vh;
     left:73vw;
 }
+.data58:hover{
+    opacity: 0.5;
+}
+.hover-img58 {
+    display: none;
+    width: 33vw;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img58{
+    display: block;
+  }
 .data59{
     width:4.6vw;
     position:relative;
     bottom:74vh;
     left:64vw;
 }
+.data59:hover{
+    opacity: 0.5;
+}
+.hover-img59 {
+    display: none;
+    width: 34vw;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img59{
+    display: block;
+  }
 .data60{
     width:3.2vw;
     position:relative;
     bottom:84vh;
     left:67vw;
 }
+.data60:hover{
+    opacity: 0.5;
+}
+.hover-img60 {
+    display: none;
+    width: 34vw;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .container02:hover .hover-img60{
+    display: block;
+  }
