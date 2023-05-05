@@ -191,22 +191,83 @@ html{
     left:7vh;
     transform: rotate(15deg);
 }
-
-#collection {
+@media (min-width: 1030px) {
+  .mobile{
+    display: none;
+  }
+#collection > .item{
+    font-family: 'ITC Gothic';
+      font-size:xx-small;
+      flex: 0 1 25%; 
+      height: 40vh;
+      line-height: 60vh;
+      margin-left: 6vw;
+      color: #ffffff;
+  }
+  #collection {
     width: 100%;
 	display: flex;
 	flex-wrap:wrap;
     align-content:flex-start;
 	justify-content: space-between;
 }
-#collection > .item{
-	font-family: 'ITC Gothic';
-    font-size:xx-small;
-    flex: 0 1 25%; 
-    height: 40vh;
-    line-height: 60vh;
-    margin-left: 6vw;
+}
 
+@media (max-width: 1030px) {
+  .desktop{
+    display: none;
+  }
+  
+  .graph{
+      display: none;
+  }
+ 
+  :root {
+    --spacing: 1em;
+  }
+  
+  
+  #collection {
+    display: flex;
+    flex-wrap:wrap;
+    flex: 1 0 21%;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'ITC Gothic';
+    margin-right: 5vw;
+  }
+  pre{
+    font-size: 1vw;
+  }
+  
+  
+  
+  .item {
+    border: 2px solid;
+    padding:20px;
+    max-width:200px;
+    margin:20px;
+    color: rgb(221, 255, 243);
+    
+  }
+  
+  
+  
+  .black {
+    background-color:rgb(131, 6, 6);
+    color:white;
+  }
+  
+  .Cancer {
+    background-color:#af402c;
+  }
+  
+  .indifferent {
+    border: 2px dashed;
+    color: #ffffff;
+  }
+
+  
 }
 
 a {

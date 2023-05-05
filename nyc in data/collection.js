@@ -9,20 +9,34 @@ function renderItems(collection) {
    // This can get annoying, so we can use “template literals” instead
    const itemDetails =
     `<div class="item">
-     <a href=" ">
+    <div class="mobile">
+    
+    
+    <img src="${item.img}" />
+
+    <p><em> ${item.year}</em></p>
+    <em><pre>(Leading cause):(death rate)</pre></em>
+    <p><em>${item.leading_cause1}: ${item.rate1}</p>
+    <p><em>${item.leading_cause2}: ${item.rate2}</p>
+    <p><em>${item.leading_cause3}: ${item.rate3}</p>
+    <p><em>${item.leading_cause4}: ${item.rate4}</p>
+    <p><em>${item.leading_cause5}: ${item.rate5}</p>
+				</div>
      
-     
-     <p>${item.year} </p >
-   
-     </a >
+      <div class="desktop">
+      <a href=" ">
+      <p>${item.year} </p >
+      </a >
+      </div>
      </div>
     `
-    collectionList.insertAdjacentHTML
-    ('beforeend', itemDetails) // Which can we then insert
- 
-  })
+    collectionList.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
+   
+  
+   })
+  
  }
- 
+
  
  
  // Fetch gets your JSON file.
@@ -34,3 +48,25 @@ function renderItems(collection) {
    // And passes the data to the function, above!
    renderItems(collection) // In reverse order
   })
+
+  if (item.leading_cause1 == "COVID-19") { // If this is `true`
+    listItem.classList.add('COVID-19') // Add this class to the whole `li`
+  }
+  if (window.innerWidth < 1030) {
+   
+		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
+
+		// You can build logic from your data, too
+		if (!item.indifferent) { // If this is `false`
+			listItem.classList.add('indifferent') // Add this class to the whole `li`
+		}
+
+		if (item.leading_cause1 == "COVID-19") { // If this is `true`
+			listItem.classList.add('COVID-19') // Add this class to the whole `li`
+		}
+
+		if (item.primary_fur_color == "Black") { // If this is `true`
+			listItem.classList.add('black') // Add this class to the whole `li`
+		}
+  }
+ 
