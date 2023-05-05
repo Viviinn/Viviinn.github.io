@@ -16,17 +16,17 @@ function renderItems(collection) {
 
     <p><em> ${item.year}</em></p>
     <em><pre>(Leading cause):(death rate)</pre></em>
-    <p><em>${item.leading_cause1}: ${item.rate1}</p>
-    <p><em>${item.leading_cause2}: ${item.rate2}</p>
-    <p><em>${item.leading_cause3}: ${item.rate3}</p>
-    <p><em>${item.leading_cause4}: ${item.rate4}</p>
-    <p><em>${item.leading_cause5}: ${item.rate5}</p>
+    <p><em>${item.leading_cause1}: ${item.rate1}</em></p>
+    <p><em>${item.leading_cause2}: ${item.rate2}</em></p>
+    <p><em>${item.leading_cause3}: ${item.rate3}</em></p>
+    <p><em>${item.leading_cause4}: ${item.rate4}</em></p>
+    <p><em>${item.leading_cause5}: ${item.rate5}</em></p>
 				</div>
      
       <div class="desktop">
-      <a href=" ">
-      <p>${item.year} </p >
-      </a >
+      
+      <p>${item.year}</p >
+      
       </div>
      </div>
     `
