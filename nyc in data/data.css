@@ -38,14 +38,14 @@ html{
   margin:0vh;
   text-align: center;
   line-height:1vh;
-  font-size: 0.5vh;
+  font-size: 13px;
 }
 .one p{
     font-family: 'ITC Gothic';
     color: white;
     
     position: fixed;
-    top:5.5vh;
+    top:5.1vh;
     left:7.5vh;
     transform: rotate(15deg);
 }
@@ -69,7 +69,7 @@ html{
     color: white;
     
     position: fixed;
-    top:14vh;
+    top:13vh;
     left:7.5vh;
     transform: rotate(15deg);
 }
@@ -86,7 +86,7 @@ html{
     color: white;
     
     position: fixed;
-    top:22vh;
+    top:21.4vh;
     left:7.5vh;
     transform: rotate(15deg);
 }
@@ -103,7 +103,7 @@ html{
     color: white;
     
     position: fixed;
-    top:31.9vh;
+    top:31vh;
     left:7.5vh;
     transform: rotate(15deg);
 }
@@ -120,7 +120,7 @@ html{
     color: white;
     
     position: fixed;
-    top:40.4vh;
+    top:40vh;
     left:7.5vh;
     transform: rotate(15deg);
 }
@@ -136,7 +136,7 @@ html{
     color: white;
     
     position: fixed;
-    top:48.5vh;
+    top:48vh;
     left:7.5vh;
     transform: rotate(15deg);
 }
@@ -153,7 +153,7 @@ html{
     color: white;
    
     position: fixed;
-    top:57.8vh;
+    top:57vh;
     left:7.5vh;
     transform: rotate(15deg);
 }
@@ -170,7 +170,7 @@ html{
     color: white;
     
     position: fixed;
-    top:69vh;
+    top:67.5vh;
     left:7.5vh;
     transform: rotate(15deg);
 }
@@ -187,7 +187,7 @@ html{
     color: white;
     
     position: fixed;
-    top:78vh;
+    top:76vh;
     left:7vh;
     transform: rotate(15deg);
 }
