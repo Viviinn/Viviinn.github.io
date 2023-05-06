@@ -266,7 +266,7 @@ h1{
         max-inline-size: 190%;
         position: relative;
         left:1vw;
-        top:-17vh;
+        top:-17vw;
         display: block;
         margin: 0 auto;
         
@@ -275,9 +275,9 @@ h1{
 
 .img1 p{
     font-family: 'ITC Gothic';
-    position: relative;
-    left:1vw;
-    top: 55vh;
+    position: absolute;
+    left:34vw;
+    top: 75vw;
     text-align: center;
     font-size: 25px;
 }
@@ -287,7 +287,7 @@ h1{
     max-inline-size: 190%;
     position: relative;
     left:1vw;
-    top:-62vh;
+    top:-85vw;
     display: block;
     margin: 0 auto;
     
@@ -298,7 +298,7 @@ h1{
 font-family: 'ITC Gothic';
 position: relative;
 left:-2vw;
-top: 51vh;
+top: 86vw;
 text-align: center;
 font-size: 25px;
 }
@@ -308,7 +308,7 @@ font-size: 25px;
     max-inline-size: 190%;
     position: relative;
     left:1vw;
-    top:-112vh;
+    top:-160vw;
     display: block;
     margin: 0 auto;
     
@@ -319,7 +319,7 @@ font-size: 25px;
 font-family: 'ITC Gothic';
 position: relative;
 left:-2vw;
-top: 50vh;
+top: 85vw;
 text-align: center;
 font-size: 25px;
 }
@@ -329,7 +329,7 @@ font-size: 25px;
     max-inline-size: 190%;
     position: relative;
     left:1vw;
-    top:-162vh;
+    top:-240vw;
     display: block;
     margin: 0 auto;
     
@@ -340,7 +340,7 @@ font-size: 25px;
 font-family: 'ITC Gothic';
 position: relative;
 left:-2vw;
-top: 46vh;
+top: 76vw;
 text-align: center;
 font-size: 25px;
 }
@@ -349,7 +349,7 @@ font-size: 25px;
     max-inline-size: 190%;
     position: relative;
     left:-2vw;
-    top:-219vh;
+    top:-330vw;
     display: block;
     margin: 0 auto;
     
@@ -360,7 +360,7 @@ font-size: 25px;
 font-family: 'ITC Gothic';
 position: relative;
 left:-2vw;
-top: 48vh;
+top: 80vw;
 text-align: center;
 font-size: 25px;
 }
@@ -370,7 +370,7 @@ font-size: 25px;
     max-inline-size: 190%;
     position: relative;
     left:-2vw;
-    top:-271vh;
+    top:-415vw;
     display: block;
     margin: 0 auto;
     
@@ -381,7 +381,7 @@ font-size: 25px;
 font-family: 'ITC Gothic';
 position: relative;
 left:-2vw;
-top: 46vh;
+top: 77vw;
 text-align: center;
 font-size: 25px;
 }
@@ -392,7 +392,7 @@ font-size: 25px;
     max-inline-size: 190%;
     position: relative;
     left:-2vw;
-    top:-326vh;
+    top:-500vw;
     display: block;
     margin: 0 auto;
     
@@ -403,7 +403,7 @@ font-size: 25px;
 font-family: 'ITC Gothic';
 position: relative;
 left:-2vw;
-top: 46vh;
+top: 76vw;
 text-align: center;
 font-size: 25px;
 }
@@ -413,7 +413,7 @@ font-size: 25px;
     max-inline-size: 190%;
     position: relative;
     left:-2vw;
-    top:-379vh;
+    top:-584vw;
     display: block;
     margin: 0 auto;
     
@@ -424,7 +424,7 @@ font-size: 25px;
 font-family: 'ITC Gothic';
 position: relative;
 left:-2vw;
-top: 48vh;
+top: 80vw;
 text-align: center;
 font-size: 25px;
 }
@@ -435,7 +435,7 @@ font-size: 25px;
     max-inline-size: 190%;
     position: relative;
     left:-2vw;
-    top:-432vh;
+    top:-665vw;
     display: block;
     margin: 0 auto;
     
@@ -446,7 +446,7 @@ font-size: 25px;
 font-family: 'ITC Gothic';
 position: relative;
 left:-2vw;
-top: 48vh;
+top: 78vw;
 text-align: center;
 font-size: 25px;
 }
