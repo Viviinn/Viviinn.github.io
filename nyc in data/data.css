@@ -340,6 +340,7 @@ a {
 .hover-img  {
     font-family: 'Euclid Circular A';
     display: none;
+    width: 48vw;
     position: absolute;
     top: 50%;
     left: 50%;
